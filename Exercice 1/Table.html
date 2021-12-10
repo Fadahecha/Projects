@@ -1,0 +1,370 @@
+<!-- tabla -->
+<table>
+    <tr> <!-- Row 1 -->
+      <th></th>
+      <th>Saturday</th>
+      <th>Sunday</th>
+    </tr>
+    <tr> <!-- Row 2 -->
+      <th>Morning</th>
+      <td rowspan="2">Work</td>
+      <td rowspan="3">Relax</td>
+    </tr>
+    <tr> <!-- Row 3 -->
+      <th>Afternoon</th>
+    </tr>
+    <tr> <!-- Row 4 -->
+      <th>Evening</th>
+      <td>Dinner</td>
+    </tr>
+  </table>
+<br><br>
+
+<!-- tabla -->
+  <table>
+    <tbody>
+      <tr>
+        <th></th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+      </tr>
+      <tr>
+        <th>Morning</th>
+        <td rowspan="2">Work</td>
+        <td rowspan="3">Relax</td>
+      </tr>
+      <tr>
+       <th>Afternoon</th>
+      </tr>
+      <tr>
+        <th>Evening</th>
+        <td>Dinner</td>
+      </tr>
+    </tbody>
+  </table>
+<br><br>
+  <!--input type text-->
+  <form action="/example.html" method="POST">
+    <label for="meal">What do you want to eat?</label>
+    <br>
+    <input type="text" name="food" id="meal">
+  </form>
+  <br><br>
+  <!-- input type number -->
+  <form>
+    <label for="years"> Years of experience: </label>
+    <input id="years" name="years" type="number" step="1">
+  </form>
+  <br><br>
+  <!-- input type range VOLUMEN -->
+  <form>
+    <label for="volume"> Volume Control</label>
+    <input id="volume" name="volume" type="range" min="0" max="100" step="1">
+  </form>
+
+<br><br>
+<!-- input type text -->
+<form>
+  <h1>Create a burger!</h1>
+  <section class="protein">
+    <label for="patty">What type of protein would you like?</label>
+    <input type="text" name="patty" id="patty">
+  </section>
+  <hr>
+  <!-- input type number -->
+  <section class="patties">
+    <label for="amount">How many patties would you like?</label>
+    <input type="number" name="amount" id="amount">
+  </section>
+  <hr>
+  <!-- input type range  -->
+  <section class="cooked">
+    <label for="doneness">How do you want your patty cooked</label>
+    <br>
+    <span>Rare</span>
+  
+     <input id="doneness" name="doneness" type="range" min="0" max="5" step=0.5>
+
+    
+    <span>Well-Done</span>
+  </section>
+  
+</form>
+</section>
+</body>
+</html>
+<br><br>
+<!-- input type checkbox -->
+<form>
+  <p>Choose your pizza toppings:</p>
+  <label for="cheese">Extra cheese</label>
+  <input id="cheese" name="topping" type="checkbox" value="cheese">
+  <br>
+  <label for="pepperoni">Pepperoni</label>
+  <input id="pepperoni" name="topping" type="checkbox" value="pepperoni">
+  <br>
+  <!--input type checkbox con SELECT -->
+  <label for="anchovy">Anchovy</label>
+  <input id="anchovy" name="topping" type="checkbox" value="anchovy">
+</form>
+<br><br>
+<form>
+  <label for="lunch">What's for lunch?</label>
+  <select id="lunch" name="lunch">
+    <option value="pizza">Pizza</option>
+    <option value="curry">Curry</option>
+    <option value="salad">Salad</option>
+    <option value="ramen">Ramen</option>
+    <option value="tacos">Tacos</option>
+  </select>
+</form>
+<br><br>
+<!--  input type TEXT con opciones definidas-->
+<form>
+  <label for="city">Ideal city to visit?</label>
+  <input type="text" list="cities" id="city" name="city">
+ 
+  <datalist id="cities">
+    <option value="New York City"></option>
+    <option value="Tokyo"></option>
+    <option value="Barcelona"></option>
+    <option value="Mexico City"></option>
+    <option value="Melbourne"></option>
+    <option value="Other"></option>  
+  </datalist>
+</form>
+<!-- Davies Burger completo -->
+<br>
+<br>
+<title>Forms Review</title>
+</head>
+<body>
+  <section id="overlay">
+    <img src="https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_burger-logo.svg" alt="Davie's Burgers Logo" id="logo">
+    <hr>
+    <form action="submission.html" method="POST">
+      <h1>Create a burger!</h1>
+      <section class="protein">
+        <label for="patty">What type of protein would you like?</label>
+        <input type="text" name="patty" id="patty">
+      </section>
+      <hr>
+      
+      <section class="patties">
+        <label for="amount">How many patties would you like?</label>
+        <input type="number" name="amount" id="amount">
+      </section>
+      <hr>
+      
+      <section class="cooked">
+        <label for="doneness">How do you want your patty cooked</label>
+        <br>
+        <span>Rare</span>
+        <input type="range" name="doneness" id="doneness" value="3" min="1" max="5">
+        <span>Well-Done</span>
+      </section>
+      <hr>
+      
+      <section class="toppings">
+        <span>What toppings would you like?</span>
+        <br>
+        <input type="checkbox" name="topping" id="lettuce" value="lettuce">
+        <label for="lettuce">Lettuce</label>
+        <input type="checkbox" name="topping" id="tomato" value="tomato">
+        <label for="tomato">Tomato</label>
+        <input type="checkbox" name="topping" id="onion" value="onion">
+        <label for="onion">Onion</label>
+      </section>
+      <hr>
+      
+      <section class="cheesy">
+        <span>Would you like to add cheese?</span>
+        <br>
+        <input type="radio" name="cheese" id="yes" value="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" name="cheese" id="no" value="yes">
+        <label for="no">No</label>
+      </section>
+      <hr>
+     
+      <section class="bun-type">
+        <label for="bun">What type of bun would you like?</label>
+        <select name="bun" id="bun">
+          <option value="sesame">Sesame</option>
+          <option value="potatoe">Potato</option>
+          <option value="pretzel">Pretzel</option>
+        </select>
+      </section>
+      <hr>
+      
+      <section class="sauce-selection">
+        <label for="sauce">What type of sauce would you like?</label>
+        <input list="sauces" id="sauce" name="sauce">
+        <datalist id="sauces">
+          <option value="ketchup"></option>
+          <option value="mayo"></option>
+          <option value="mustard"></option>
+        </datalist>
+      </section>
+      <hr>
+      <section class="extra-info">
+        <label for="extra">Anything else you want to add?</label>
+        <br>
+        <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+      </section>
+      <hr>
+
+      <section class="submission">
+        <input type="submit" value="Submit">
+      </section>
+    </form>
+  </section>
+</body>
+</html>
+<br><br>
+<!--input rquerido  -->
+<form action="/example.html" method="POST">
+  <label for="allergies">Do you have any dietary restrictions?</label>
+  <br>
+  <input id="allergies" name="allergies" type="text" required>
+  <br>
+  <input type="submit" value="Submit">
+</form>
+<br><br>
+<!-- inpunt min max -->
+<form action="/example.html" method="POST">
+  <label for="guests">Enter # of guests:</label>
+  <input id="guests" name="guests" type="number" min="1" max="4">
+  <input type="submit" value="Submit">
+</form>
+<br><br>
+<!-- input TEXT lenght POSIBLE para numeros -->
+<form action="/example.html" method="POST">
+  <label for="summary">Summarize your feelings in less than 250 characters</label>
+  <input id="summary" name="summary" type="text" minlength="5" maxlength="250" required>
+  <input type="submit" value="Submit">
+</form>
+<br><br>
+<!-- Matching a pattern We might also want to limit usernames to only
+   letters and numbers (and not special characters like ! or @).
+
+To add this validation, add a pattern attribute and set it 
+to: "[a-zA-Z0-9]+" in the first <input> element.-->
+<form action="/example.html" method="POST">
+  <label for="payment">Credit Card Number (no spaces):</label>
+  <br>
+  <input id="payment" name="payment" type="text" required pattern="[0-9]{14,16}">
+  <input type="submit" value="Submit">
+</form>
+<br><br>
+<br><br>
+<!--  SIGN UP-->
+  <body>
+    <section class="overlay">
+			<h1>Sign Up</h1>
+      <p>Create an account:</p>
+      <form action="submission.html" method="GET">
+        <label for="username">Username:</label>
+        <br>
+				<input id="username" name="username" type="text" required minlength="3" maxlength="15">
+        <br>
+        <label for="pw">Password:</label>
+        <br>
+        <!--Add the pattern attribute to the input below-->
+				<input id="pw" name="pw" type="password" required minlength="8" maxlength="15">
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </body>
+</html>
+<br><br>
+<!--  HEADER ET NAV-->
+<header> 
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>      
+    </ul>
+  </nav>
+</header>
+<br><br>
+<!--Main-->
+<main>
+  <header>
+    <h1>Types of Sports</h1>
+  </header>
+  <article>
+    <h3>Baseball</h3>
+    <p>
+      The first game of baseball was played in Cooperstown, New York in the summer of 1839.
+    </p>
+  </article>
+</main>
+<br><br>
+<!--figure et figcaption-->
+<figure>
+  <img src="overwatch.jpg">
+  <figcaption>This picture shows characters from Overwatch.</figcaption>
+</figure>
+<br><br>
+<!--Audio type mp3-->
+<audio>
+  <source src="iAmAnAudioFile.mp3" type="audio/mp3">
+</audio>
+<br><br>
+<!--Adio Controls-->
+<audio controls></audio>
+<br><br>
+<!--Video-->
+<video src="coding.mp4" controls>Video not supported</video>
+<br><br>
+<!--Site Web-->
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Navigational Links</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#posts">Posts</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section>
+        <article>
+          <h2>Facts About Dogs</h2>
+          <p>
+          Dogs have a sense of time. It's been proven that they know the difference between a hour and five. If conditioned to, they can predict future events, such as regular walk times.
+          </p>
+        </article>
+        <aside>
+          <p>A study was conducted on dogs being away from their owners for varying hours and the studies show that dogs who were away from their owners the longest showed the greatest amount of affection!
+          </p> 
+        </aside>
+      </section> 
+      <figure>
+        <img src="https://content.codecademy.com/courses/SemanticHTML/dogimage.jpeg"/>
+        <figcaption>A cute dog.</figcaption>
+      </figure>  
+      <audio controls>
+        <source src="https://content.codecademy.com/courses/SemanticHTML/dogBarking.mp3" type="audio/mp3">
+      </audio> 
+      <video src="https://content.codecademy.com/courses/SemanticHTML/dog-video.mp4" controls>
+      </video>
+      <embed src="https://content.codecademy.com/courses/SemanticHTML/dog-on-beach.gif"/>
+         
+    </main>
+    
+    <footer>
+      <p>Contact me at +1 234 567 8910 </p>
+    </footer>
+              
+  </body>
+</html>
