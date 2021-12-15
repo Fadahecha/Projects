@@ -1,0 +1,28 @@
+
+
+nav {
+display:inline-block;
+float: right;
+
+}
+
+nav li{
+display:inline-block;
+padding-right: 50px;
+float: right;
+
+}
+
+nav ul {
+list-style:none;
+background-color: chartreuse;
+font-size: 20px;
+}
+
+.logo1 {
+display:inline-block;
+position:fixed;
+float: left;
+margin-top: 0%;
+}
+
