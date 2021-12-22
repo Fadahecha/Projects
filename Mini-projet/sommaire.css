@@ -1,0 +1,14 @@
+/*****ID=FOTO****/
+
+#foto1, #foto2, #foto3 {
+    transition: all .1s;
+    cursor: pointer;
+    max-width: auto;
+    height: auto;
+}
+
+#foto1:hover, #foto2:hover, #foto3:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}

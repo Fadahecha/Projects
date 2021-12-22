@@ -1,0 +1,41 @@
+/****Autana*******/
+
+.auta1{
+    display: block;
+    position: absolute;
+}
+
+.auta2{
+    display: block;
+    position: absolute;
+    z-index: 2;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+}
+.auta2:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5)
+}
+
+
+
+/**********Roraima***************/
+
+video{
+    width: 100%;
+    
+}
+
+/************Auyantepuy***********************/
+
+#auyant{
+    filter: grayscale(80%)
+}
+
+#auyant:hover{
+    filter: none;
+}
