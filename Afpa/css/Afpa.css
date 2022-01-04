@@ -1,0 +1,35 @@
+/*#claro {
+  background-color: #87bb34 !important;
+}*/
+
+.fondo {
+  background-image: url("../Media/fondofondo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+#rosAfpa {
+  background-color: #e3007e;
+  color: #fff;
+}
+
+#fin {
+  color: #fff;
+}
+
+#oscuro {
+  background-color: #87bb34;
+}
+
+#enlace {
+  color: #fff !important;
+}
+
+#enlace:hover {
+  font-weight: bold;
+  transform: scale(1.1);
+}
