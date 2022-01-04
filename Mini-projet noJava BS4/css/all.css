@@ -1,0 +1,273 @@
+
+p{
+    text-align: justify;
+}
+body{
+  z-index: 2;
+}
+.fondo{
+    background-image: url('../Media/fondo.jpg');
+    color: #fff;
+    background-size: cover;
+}
+
+.fondo {
+  animation-name: fondo;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fondo {
+  0% {
+    background-image: url('../Media/fondo.jpg');
+  }
+  33% {
+    background-image: url('../Media/Autana.jpg');
+    color: #000;
+  }
+  66% {
+    background-image: url('../Media/Auyantepui.jpg');
+    color: #000;
+  }
+  100% {
+    background-image: url('../Media/Roraima.jpg');
+    color: #000;
+  }
+}
+
+/* NAVBAR*/
+
+.menu {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+header {
+    width: 100%;
+    height: 70px;
+    line-height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #032b09;
+}
+
+.menu {
+    width: 60%;
+    height: 100%;
+    float: right;
+    text-align: center !important;
+}
+
+
+.menu ul {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;     
+    display: -moz-box;        
+    display: -ms-flexbox;     
+    display: -webkit-flex;    
+    display: flex;             
+}
+.menu ul a {
+    width: 20%;
+    height: auto;
+    color: #fff;
+    display: inline-block;
+}
+.menu ul a:hover {
+    border:  solid;
+    background-color: #222;
+    color: #fff;
+}
+
+
+/*******footer**********/
+
+
+
+.site-footer
+{
+background-color: #032b09;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#fff;
+  z-index: 1;
+}
+.site-footer hr
+{
+  border-top-color:#fff;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  margin-left: 10px; /**/
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#fff;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none;
+  margin-left: 15px;;
+}
+.footer-links li
+{
+  display:block
+  
+}
+.footer-links a
+{
+  color:#fff;
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+  
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+  
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+  
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+
+
+
+/********@MEDIA**********/
+
+@media screen and (max-width: 576px) and (max-width: 768px) {
+    .menu {
+        width: 100%;
+        height: auto;
+    }
+    .menu ul {
+        display: block;
+        max-height: 0;
+    
+       
+    }
+  
+    .menu-icon {
+        width: 100px;
+        height: inherit;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        line-height: 60px;
+    }
+
+    footer{
+        display: none;
+    
+    }
+}
+
+@media screen and (max-width: 992px){
+
+    footer{
+        display: none;
+    }
+}
+
+
+
