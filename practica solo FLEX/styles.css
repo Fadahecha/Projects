@@ -1,0 +1,252 @@
+*{
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+
+header div{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  
+}
+
+header div img{
+    /*display: block;*/
+    max-width: 35%;
+    height: auto;
+
+}
+
+nav{
+    display: flex;
+    padding-left: 10%;
+
+    
+}
+
+nav ul{
+    display:flex
+    
+}
+
+h1{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+    /*CONTENT*/
+
+.info{
+    display: block;
+    padding: 1%;
+}
+
+#blanco{
+    background-color: #fff;
+    color: black;
+}
+
+.rose{
+    color:#e3007e;
+}
+
+.info div{
+    
+    background-color: #87bb34;
+    border: 1px solid black;
+    padding: 2%;
+    color: #fff;
+}
+
+p{
+    text-align: justify;
+}
+
+
+ul{
+    
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    background-color: #e3007e;
+    border: 1px solid black;
+    text-align: center;
+    padding: 2% 7%;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+
+.diapo{
+    background-color: black;
+    padding: 3%;
+    margin: 3% 1%;
+}
+.fondo{
+    width: 100%;
+    height: 200px;   
+}
+
+        /*DIAPO ANIMATION*/
+
+.fondo {
+    animation-name: fondo;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+  }
+
+
+@keyframes fondo {
+  0% {
+    background-image: url('Autanasolo.jpg');
+    
+    
+  }
+  33% {
+    background-image: url('Auyan1.jpg');
+    
+   
+  }
+  66% {
+    background-image: url('Roraima.jpg');
+    
+    
+  }
+  100% {
+    background-image: url('Logo_Afpa.jpg');
+   
+
+  }
+}
+
+.map{
+    margin: 1%;
+    padding: 3%;
+    border: 1px solid black;
+    background-color: #87bb34;
+}
+
+.map div{
+ 
+    width: 100%;
+    height: 200px; 
+
+}
+
+footer div{
+    background-color: grey;
+    margin: 0;
+    
+}
+
+footer div p{
+    text-align: center;
+}
+
+
+
+
+
+    /* à partir de*/
+
+@media (min-width: 750px){
+
+    header{
+        display:flex;
+
+    
+    }
+
+    header div{
+        max-width: 60%;
+    }
+    header div img{
+        max-width: 16%;
+    }
+
+    nav{
+    
+        padding: 0%;
+        margin: 0%;
+    }
+
+    ul{
+        display: flex;
+    }
+
+    nav ul li{
+        padding: 10px 15px;
+        margin: 1px 1px;
+    }
+ 
+    h1{
+        font-size: 1.8em;
+        margin-right: 5%;
+    }
+
+    .info{
+        display: flex;
+    }
+
+    .info div{
+        max-width: 33%;
+    }
+
+   }
+   
+
+    
+
+    @media (min-width:1024px) {
+        
+        h1{
+            font-size: 2em;
+        }
+
+        nav ul li{
+            padding: 20px 30px;
+            margin: 0px 1px;
+        }
+
+    }
+
+
+
+ /*   
+    header div img{
+        max-width: 16%;
+    }
+
+    header div{
+        display: flex;
+        padding: 0;
+    }
+    
+    nav{
+        display: block;
+        padding-left: 20%
+        
+    }
+
+    nav li{
+        justify-content: center;
+    }
+
+
+    h1{
+        font-size: 3em;
+        margin-right: 7%;
+    }
+
+    .info{
+            display: flex;
+    }
+}   
+
