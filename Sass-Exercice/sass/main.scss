@@ -1,0 +1,274 @@
+/*variables color*/
+$yellow: #ff0;
+$light_yellow: #ff4;
+$dark_grey: #222;
+$light_grey: #444;
+$silver: #eee;
+$light: #fff;
+
+/*variables fonts*/
+$gragdHotel: "Grand Hotel", serif;
+$oepnSans: "Open Sans", helvetica, arial, sans-serif;
+
+/////////////mixing//////////////
+
+@mixin btn($background-color, $color) {
+  background-color: $background-color;
+  color: $color;
+  width: 0%;
+  font-family: $gragdHotel;
+  padding: 3% 5%;
+  width: 40%;
+  border: 0;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.3em;
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+//botones
+.produits,
+.client {
+  .more {
+    @include btn($dark_grey, $light);
+  }
+}
+
+.production {
+  .more {
+    @include btn($yellow, $dark_grey);
+  }
+}
+/*******header***********/
+
+header {
+  background-color: $dark_grey;
+  padding: 2%;
+}
+
+header h1 {
+  color: $yellow;
+  font-family: $gragdHotel;
+  margin: 0;
+  text-align: center;
+  padding: 2%;
+}
+
+p {
+  color: $light;
+  font-family: $oepnSans;
+  text-align: center;
+}
+
+#search {
+  display: block;
+  margin: 0 auto;
+}
+
+/***********************ASIDE*****************/
+nav {
+  background-color: $dark_grey;
+  padding-top: 5%;
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    li {
+      width: 50%;
+      margin: 0 auto;
+      text-align: center;
+      padding-bottom: 2%;
+      margin-bottom: 2%;
+      text-align: center;
+      border-bottom: $yellow 2px solid;
+      //ultimo li, para que no tenga la raya amarilla
+      &:last-child {
+        //para li
+        border-bottom: 0;
+      }
+      a {
+        text-decoration: none;
+        color: $light;
+        font-family: $oepnSans;
+      }
+    }
+  }
+}
+
+aside {
+  background-color: $dark_grey;
+
+  .copyright {
+    color: $yellow;
+    font-family: $gragdHotel;
+    margin-bottom: 0;
+    visibility: hidden;
+  }
+}
+
+/*********************MAIN*********************/
+
+//section limonade
+
+.limonade {
+  background-image: url(../images/bg-presentation.jpg);
+  background-size: cover;
+  color: $light;
+  padding: 2%;
+
+  h1 {
+    font-family: $gragdHotel;
+    text-align: center;
+  }
+  p {
+    font-family: $oepnSans;
+  }
+}
+
+.limonade {
+  blockquote {
+    text-align: right;
+    margin-right: 5%;
+    .quote {
+      font-family: $oepnSans;
+      font-size: 1.2em;
+      font-style: italic;
+    }
+    .mag {
+      font-family: $gragdHotel;
+    }
+  }
+}
+
+//section produits
+
+.produits {
+  background-color: $silver;
+
+  h1 {
+    margin: 0;
+    padding: 5% 0;
+    font-family: $gragdHotel;
+    color: $dark_grey;
+    text-align: center;
+  }
+  .product {
+    img {
+      border: 1px solid $light_grey;
+      padding: 1px;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
+
+.product {
+  figcaption {
+    h2 {
+      font-family: $gragdHotel;
+      color: $dark_grey;
+      text-align: center;
+    }
+    p {
+      color: $dark_grey;
+      font-family: $oepnSans;
+    }
+  }
+}
+
+//production
+
+.production {
+  background-image: url(../images/bg-productionb.jpg);
+  background-size: cover;
+  h1 {
+    margin: 0;
+    padding: 5% 2%;
+    text-align: center;
+    font-family: $gragdHotel;
+    color: $light;
+  }
+  p {
+    font-family: $oepnSans;
+    padding: 2% 2%;
+    margin-top: 0;
+  }
+}
+
+.production {
+  figure {
+    img {
+      border: none;
+      display: block;
+      margin: 0 auto;
+    }
+    figcaption {
+      color: $light;
+      font-family: $oepnSans;
+      text-align: center;
+    }
+  }
+}
+/*************CLIENTS************/
+
+.client {
+  background-color: $silver;
+  @extend .produits;
+}
+
+.client {
+  .client {
+    @extend .product;
+  }
+  blockquote {
+    font-family: $oepnSans;
+    text-align: center;
+  }
+}
+/****************CONTACT**********/
+
+.contact {
+  background-image: url(../images/bg-contact.jpg);
+  background-size: cover;
+  color: $light;
+  padding: 2%;
+
+  h1 {
+    font-family: $gragdHotel;
+  }
+  p {
+    font-family: $oepnSans;
+    display: flex;
+    flex-direction: column; //por qué?
+    input [type="email"],
+    textarea {
+      margin-top: 2%;
+      opacity: 0.7;
+    }
+  }
+}
+
+////////////MEDIA///////////////////
+
+/*
+.content {
+  display: flex;
+  aside {
+    width: 25%;
+  }
+}
+
+header {
+  h1,
+  p {
+    text-align: unset;
+  }
+}
+
+header {
+}
+*/
