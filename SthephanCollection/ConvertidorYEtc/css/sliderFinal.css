@@ -1,0 +1,45 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+* {
+  box-sizing: border-box !important;
+}
+
+.container {
+  width: 70%;
+  height: 60%;
+  overflow: hidden;
+  position: relative;
+}
+.container .cards {
+  display: flex;
+  height: 120%;
+  transition: 500ms ease-in-out;
+}
+.container .cards > * {
+  min-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .btn {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+h1 {
+  text-align: center;
+}

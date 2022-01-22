@@ -1,0 +1,57 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+* {
+  box-sizing: border-box !important;
+}
+
+.carousel {
+  width: 70%;
+  height: 60%;
+  overflow: hidden;
+  position: relative;
+}
+.carousel .content {
+  display: flex;
+  height: 120%;
+  transition: 500ms ease-in-out;
+}
+.carousel .content > * {
+  min-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.carousel .navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel .navigation div {
+  cursor: pointer;
+  font-size: 3rem;
+  padding: 0 5px;
+  color: #fff;
+  opacity: 0.9;
+  transition: 300ms;
+}
+
+span {
+  background-color: red;
+}
+
+h1 {
+  text-align: center;
+}
