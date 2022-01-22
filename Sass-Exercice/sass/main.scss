@@ -15,7 +15,6 @@ $oepnSans: "Open Sans", helvetica, arial, sans-serif;
 @mixin btn($background-color, $color) {
   background-color: $background-color;
   color: $color;
-  width: 0%;
   font-family: $gragdHotel;
   padding: 3% 5%;
   width: 40%;
@@ -51,6 +50,7 @@ header {
 }
 
 header h1 {
+  font-size: 3em;
   color: $yellow;
   font-family: $gragdHotel;
   margin: 0;
@@ -148,6 +148,7 @@ aside {
 
 .produits {
   background-color: $silver;
+    
 
   h1 {
     margin: 0;
@@ -156,14 +157,19 @@ aside {
     color: $dark_grey;
     text-align: center;
   }
-  .product {
+  .product {    
     img {
-      border: 1px solid $light_grey;
-      padding: 1px;
+      width: 100%;
       display: block;
       margin: 0 auto;
     }
   }
+   figure{
+    border: 1px solid $light_grey;
+    padding: 1%;
+    width: 80%;
+    background-color: $light;
+   }
 }
 
 .product {
@@ -201,8 +207,8 @@ aside {
 
 .production {
   figure {
+      width: 80%;
     img {
-      border: none;
       display: block;
       margin: 0 auto;
     }
@@ -211,6 +217,12 @@ aside {
       font-family: $oepnSans;
       text-align: center;
     }
+  }
+}
+
+.production{
+  .cards{
+    padding: 5%;
   }
 }
 /*************CLIENTS************/
@@ -248,11 +260,220 @@ aside {
     textarea {
       margin-top: 2%;
       opacity: 0.7;
+      width: 100%;
     }
   }
 }
 
 ////////////MEDIA///////////////////
+
+$medium:768px;
+$large:1024px;
+
+@media screen and (min-width: $medium) {
+
+
+          //BOTONES
+  @mixin btn($background-color, $color) {
+    align-self: flex-end;
+    background-color: $background-color;
+    color: $color;
+    font-family: $gragdHotel;
+    margin: 0;
+    padding: 1% 4%;
+    width: 19%;
+    border: 0;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3em;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  .produits,
+.client {
+  .more {
+    @include btn($dark_grey, $light);
+    margin: 2%;
+  }
+}
+
+.production {
+  .more {
+    @include btn($yellow, $dark_grey);
+  }
+}
+
+              //HEADER
+  header{
+    display: flex;
+      justify-content: space-between;
+        p, h1{
+          margin: 0;
+          padding: 0;
+          text-align: left;
+        }
+    }
+
+  
+
+  .content {
+    display: flex;
+    aside{
+      width: 70%;
+      font-size: 0.8em;
+      display: flex;
+      flex-flow: nowrap column;
+      justify-content: space-between;
+      .copyright{
+        visibility: visible;
+      }
+    }
+  }
+ 
+               //MAIN
+  .limonade, .produits{
+    h1{
+      text-align: start;
+    }
+    span{
+      text-align: end;
+    }
+  }
+
+  .cards{
+    display: flex;
+    flex-wrap: wrap;
+    figure{
+      max-width: 29%;
+      margin: 1%;      
+      }
+      figcaption{
+          h2,p{
+            text-align: left;
+          }
+      }
+
+    }
+  
+  
+
+  .produits{
+    display: flex;
+    flex-direction: column;
+    .cards{
+      figure{
+        max-width: 29%;
+        margin: 1%;      
+        }
+        figcaption{
+            h2,p, blockquote{
+              text-align: left;
+            }
+        }
+      }
+      .more{
+        a{
+          justify-self: end;
+        }
+      }
+    }
+  .client{
+    padding: 4 0%;
+    .cards{
+      display: flex;
+      flex-wrap: wrap;
+      figure{
+        max-width: 29%;
+        margin: 1%;      
+        }
+        figcaption{
+            h2{
+              text-align: left;
+          }
+        }  
+      }
+    } 
+
+
+  .production{
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    h1,p{
+      text-align: right;
+      margin: 0;
+      padding-bottom: 0;
+    }
+    .cards{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    figure{
+      max-width: 31%;
+      margin: 1%;
+    }
+  }
+
+    .client{
+      figure{
+        blockquote{
+          margin: 16px 0;
+        }
+      }
+    }
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  form{
+    p{
+      width: 55%;
+    }
+    .btn-submit{
+      @include btn($yellow, $dark_grey);
+      
+    }
+  }
+}
+
+
+
+
+
+  /*
+  .limonade, .produits, .production, .client{
+    padding: 10%;
+    margin: 0;
+     
+  }
+
+
+  aside{
+    width: 60%;
+    
+    .copyright{
+      visibility:visible;
+      
+    }
+  }
+
+  .produits, .client{
+     .cards{
+       figure{
+         img{
+           width: 70%;
+         }
+       }
+     }
+  }
+  
+}
+
+*/
 
 /*
 .content {
@@ -272,3 +493,12 @@ header {
 header {
 }
 */
+
+@media screen and (min-width: $large) {
+  
+  .content{
+    aside{
+      width: 50%;
+    }
+  }
+}
