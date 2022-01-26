@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   outline: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /*
@@ -34,15 +35,18 @@ img {
   font-weight: bold;
   position: absolute;
   color: #fff;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+  -webkit-box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+          box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
-  transform: all 0.3s ease;
+  -webkit-transform: all 0.3s ease;
+          transform: all 0.3s ease;
 }
 
 .btn:hover {
   cursor: pointer;
-  transform: scale(1.2, 1.2);
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
 }
 
 .atras {

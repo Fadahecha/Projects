@@ -1,0 +1,59 @@
+
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+/*This is important, you should have by default in your project*/
+* {
+	box-sizing: border-box !important;
+}
+
+
+
+	.content {
+		/*Flex for positioning the child elements in row*/
+		display: flex;
+		/*Make the content the same width as the carousel*/
+		height: 100%;
+		/*Animation transition*/
+    transition: 500ms ease-in-out;
+    
+    * {
+			/*The direct child elements (images) will fit the carousel*/
+			min-width: 100%;
+			/*Avoid images distortions*/
+			object-fit: cover;
+		}
+  }
+    
+
+		
+
+	
+	.navigation {
+		/*Separate the forward and backward button*/
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		/*Place them in the center of the carousel*/
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		/*Other styles, just for appearance*/
+
+  }
+
+ 
+  div {
+    cursor: pointer;
+    font-size: 3rem;
+    padding: 0 5px;
+    color: #FFF;
+    opacity: .9;
+    transition: 300ms;
+  }
+

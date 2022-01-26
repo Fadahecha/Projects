@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETC</title>
+</head>
+<body>
+    The truth about elk.
+    <ol>
+      <li>An elk is a smart</li>
+      <!-- comentario -->
+      <li>...y el astuto animal!</li>
+    </ol>
+
+    <table id="table">
+        <tr>
+          <td>one</td><td>two</td>
+        </tr>
+        <tr>
+          <td>three</td><td>four</td>
+        </tr>
+      </table>
+
+
+
+    <script>
+         // seleccionar td con "dos" (primera fila, segunda columna)
+  let td = table.rows[0].cells[1];
+  td.style.backgroundColor = "red"; // destacarl
+ ///////////////////////////////////////////////////////       
+        // cambiar el color de fondo a rojo
+document.body.style.background = "red";
+
+// deshacer el cambio después de 1 segundo
+setTimeout(() => document.body.style.background = "", 3000)
+//////////////////////////////////////////////////////////
+for (let i = 0; i < document.body.childNodes.length; i++) {
+      console.log( document.body.childNodes[i] ); // Texto, DIV, Texto, UL, ..., SCRIPT
+      
+    }
+    alert(document.body.childNodes.length);
+//////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////
+for (let node of document.body.childNodes) {
+  console.log(node); // enseña todos los nodos de la colección
+}
+    </script>
+</body>
+</html>

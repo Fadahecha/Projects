@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table {
+      border-collapse: collapse;
+    }
+
+    td {
+      border: 1px solid black;
+      padding: 3px 5px;
+    }
+  </style>
+<body>
+    <!--div
+    document.body.firstElement
+    document.body.children[0]
+    document.body.childNods[1]
+        ul
+    document.body.children[1]
+    document.body.lastElementChild
+    segundo li (Pete)
+    document.body.lastElementChild.lastElementChild-->
+
+    <!--
+        Si elem – es un elemento nodo arbitrario del DOM…
+
+¿Es cierto que elem.lastChild.nextSibling siempre es null?
+¿Es cierto que elem.children[0].previousSibling siempre es null ?
+
+Sí, verdadero. El elemento elem.lastChild siempre es el último, no tiene nextSibling.
+No, falso, porque elem.children[0] es el primer hijo entre elementos pero pueden existir nodos que no son elementos antes que él. previousSibling puede ser un nodo texto.
+Ten en cuenta: para ambos casos, si no hay hijos habrá un error.
+
+Si no hay hijos, elem.lastChild es null, entonces no podemos acceder a elem.lastChild.nextSibling. Y la colección elem.children es vacía (como un array vacío []).-->
+
+<table>
+    <tr>
+      <td>1:1</td>
+      <td>2:1</td>
+      <td>3:1</td>
+      <td>4:1</td>
+      <td>5:1</td>
+    </tr>
+    <tr>
+      <td>1:2</td>
+      <td>2:2</td>
+      <td>3:2</td>
+      <td>4:2</td>
+      <td>5:2</td>
+    </tr>
+    <tr>
+      <td>1:3</td>
+      <td>2:3</td>
+      <td>3:3</td>
+      <td>4:3</td>
+      <td>5:3</td>
+    </tr>
+    <tr>
+      <td>1:4</td>
+      <td>2:4</td>
+      <td>3:4</td>
+      <td>4:4</td>
+      <td>5:4</td>
+    </tr>
+    <tr>
+      <td>1:5</td>
+      <td>2:5</td>
+      <td>3:5</td>
+      <td>4:5</td>
+      <td>5:5</td>
+    </tr>
+  </table>
+
+  <br>
+  <a name="list">La lista</a>
+  <ul>
+    <li><a href="http://google.com">http://google.com</a></li>
+    <li><a href="/tutorial">/tutorial.html</a></li>
+    <li><a href="local/path">local/path</a></li>
+    <li><a href="ftp://ftp.com/my.zip">ftp://ftp.com/my.zip</a></li>
+    <li><a href="http://nodejs.org">http://nodejs.org</a></li>
+    <li><a href="http://internal.com/test">http://internal.com/test</a></li>
+  </ul>
+  <!--al parecer los comentarios no cuentan como firstElementChild
+    form.querySelector('input')
+    table.querySelector('td')        recuperar elementos dentro de elementos
+-->
+<!--Clases de Nodo
+
+    La raíz de la jerarquía es EventTarget, que es heredada por Node, y otros nodos DOM heredan de él.
+
+    Las clases son:
+
+EventTarget – es la clase raíz “abstracta”. Los objetos de esa clase nunca se crean. Sirve como base, por lo que todos los nodos DOM soportan los llamados “eventos”, los estudiaremos más adelante.
+Node – también es una clase “abstracta”, que sirve como base para los nodos DOM. Proporciona la funcionalidad del árbol principal: parentNode, nextSibling, childNodes y así sucesivamente (son getters). Los objetos de la clase Node nunca se crean. Pero hay clases de nodos concretas que heredan de él, a saber: Text para nodos de texto, Element para nodos de elementos y otros más exóticos como Comment para nodos de comentarios.
+Element – es una clase base para elementos DOM. Proporciona navegación a nivel de elemento como nextElementSibling, children y métodos de búsqueda como getElementsByTagName, querySelector. Un navegador admite no solo HTML, sino también XML y SVG. La clase Element sirve como base para clases más específicas: SVGElement, XMLElement y HTMLElement.
+HTMLElement – es finalmente la clase básica para todos los elementos HTML. Es heredado por elementos HTML concretos:
+HTMLInputElement – la clase para elementos <input>,
+HTMLBodyElement – la clase para los elementos <body>,
+HTMLAnchorElement – la clase para elementos <a>,
+…y así sucesivamente.
+-->
+
+<!--<!DOCTYPE html>
+<html>
+<body>
+
+  <div data-widget-name="menu">Elige el género</div>
+
+  <script>
+    // obteniéndolo
+    let elem = document.querySelector('[data-widget-name]');
+
+    // leyendo el valor
+    alert(elem.dataset.widgetName);
+    // o
+    alert(elem.getAttribute('data-widget-name'));
+  </script>
+</body>
+</html>-->
+
+<!--Haz todos los enlaces externos de color orange alterando su propiedad style.
+
+Un link es externo si:
+
+Su href tiene ://
+Pero no comienza con http://internal.com.
+Ejemplo:
+
+<a name="list">the list</a>
+<ul>
+  <li><a href="http://google.com">http://google.com</a></li>
+  <li><a href="/tutorial">/tutorial.html</a></li>
+  <li><a href="local/path">local/path</a></li>
+  <li><a href="ftp://ftp.com/my.zip">ftp://ftp.com/my.zip</a></li>
+  <li><a href="http://nodejs.org">http://nodejs.org</a></li>
+  <li><a href="http://internal.com/test">http://internal.com/test</a></li>
+</ul>
+
+<script>
+  // establecer un estilo para un enlace
+  let link = document.querySelector('a');
+  link.style.color = 'orange';
+</script>-->
+
+<!--limpiar elemento
+
+function clear(elem) {
+  elem.innerHTML = '';
+}-->
+
+
+  <script>
+      
+      let table = document.body.firstElementChild;
+
+      for(i=0; i<table.rows.length; i++){
+          let row = table.rows[i];
+          row.cells[i].style.backgroundColor = 'blue';
+      }
+
+  </script>
+</body>
+</html>

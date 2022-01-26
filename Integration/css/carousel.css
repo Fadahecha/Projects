@@ -189,6 +189,8 @@ table {
 }
 
 /*END RESET*/
+
+
 /*Estilos Propios*/
 /*cuerpo en general*/
 body,
@@ -199,7 +201,8 @@ html {
 
 /*Uso el * para resetear todos los elementos de mi pagina web*/
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -210,13 +213,15 @@ html {
 .center_y {
   position: relative;
   top: 50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .center_x {
   position: relative;
   left: 50%;
-  transform: translateX(50%);
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
 }
 
 /* tomamos el id del gran contenedor para darle stilos*/
@@ -238,6 +243,7 @@ html {
   position: absolute;
   /*las imagenes ocuparan entonces el 100% de su padre y usaremos object-fit: cover para evitar distorciones (se usa para videos e imagenes)*/
 }
+
 .slide img {
   width: 100%;
   /*normalmente es 100%, pero mis imagenes son muy grandes*/
@@ -266,6 +272,8 @@ html {
 
 /*puntitos comportamiento*/
 #dots-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: absolute;
   bottom: 30px;
