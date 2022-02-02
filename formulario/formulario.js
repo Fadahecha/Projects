@@ -16,7 +16,7 @@ btn.addEventListener('click', function(){
     let cPw = document.getElementById('cpw'); //Confirm password
     let span3 = document.getElementById('sp3'); // span confirm
 
-    
+
     //confirm Last Name
     if(lastName.value.length<=2){        
             span1.classList.add('error');
