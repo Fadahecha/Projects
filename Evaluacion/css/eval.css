@@ -1,0 +1,508 @@
+/*****************************************LOGO****************************************************************/
+
+.logologo {
+  height: 250px;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo-time,
+.logo-place {
+  display: block;
+  margin: 0 auto;
+}
+
+.barra-logo {
+  height: 180px;
+  justify-content: space-around;
+}
+
+/**Class pour JQuery**/
+.fixed {
+  position: fixed;
+  top: 0;
+}
+
+/*****************************************NAV**********************************************************************/
+
+.barra {
+  background-color: silver; /*rgba(0, 0, 0, 0.55);*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 1px 1px 3px silver;
+  z-index: 99;
+}
+
+.barra .nav-link,
+.none {
+  text-shadow: 0 0 1px var(--bs-teal);
+  color: var(--bs-teal) !important;
+  font-size: 1.3em;
+  border-bottom: 1px solid transparent;
+  transition: padding-bottom 0.8s ease, border-color 1s ease, font-size 1s ease;
+}
+
+.barra .nav-link:hover {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom-color: #ef5350;
+}
+
+/***********************************************BANNER************************************************************/
+
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../media/jardin1.jpg") center fixed no-repeat;
+  background-size: cover;
+  height: 1100px;
+}
+
+.banner .banner-desc h1 {
+  font-size: 5em;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+}
+
+.btn-outline {
+  color: var(--bs-teal);
+  border-color: var(--bs-teal);
+}
+
+.btn-outline:hover {
+  color: #fff;
+  background-color: var(--bs-teal);
+}
+
+.btn-order {
+  color: #ef5350;
+  border-color: #ef5350;
+  transition: 0.5s;
+}
+
+.btn-order:hover {
+  color: #fff;
+  background-color: #ef5350;
+}
+
+/***************************************CARDS*********************************************************************/
+
+.titulo {
+  margin: 3% !important;
+  font-size: 4em;
+}
+/*
+.card {
+  margin: 0 5% !important;
+}
+
+.card img {
+  height: 800px !important;
+}*/
+/***************************************GEN******************************************************************/
+.go {
+  color: #fff;
+  background-color: #ef5350 !important;
+  border-color: #ef5350 !important;
+}
+
+.go:hover {
+  transform: scale(1.3);
+  color: #fff;
+  background-color: #e84040 !important;
+  border-color: #e84040 !important;
+}
+
+.card-text,
+.card-title {
+  text-align: center;
+}
+
+.featurette-heading {
+  margin-top: 30% !important;
+}
+
+.contenedor {
+  height: 100% !important;
+}
+
+.fondo {
+  margin-top: 5%;
+  text-shadow: 0 0 1px var(--bs-teal);
+  font-size: 1.3em !important;
+  font-weight: bold;
+  color: var(--bs-teal) !important;
+  background-color: silver;
+}
+
+.copyright {
+  color: #ef5350;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/******************************************************/
+
+/********************************************************Ofertas*********************************************************/
+
+.wrapper {
+  margin-top: 30px;
+}
+
+.carta {
+  border: 1px solid #eee;
+  cursor: pointer;
+}
+
+.weight {
+  margin-top: -65px;
+  transition: all 0.5s;
+}
+
+.weight small {
+  color: var(--bs-teal);
+}
+
+.buttons {
+  padding: 10px;
+  background-color: #d6d4d44f;
+  border-radius: 4px;
+  position: relative;
+  margin-top: 7px;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.dot {
+  height: 14px;
+  width: 14px;
+  background-color: #ef5350 !important;
+  border-radius: 50%;
+  position: absolute;
+  left: 27%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8px;
+  color: #fff;
+  opacity: 0;
+}
+
+/*contenedor deprecio que popea*/
+.cart-button {
+  height: 48px;
+}
+
+.cart {
+  position: relative;
+  height: 48px !important;
+  width: 50px;
+  margin-right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 11px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 1s ease-in-out;
+  overflow: hidden;
+}
+
+.cart-button.clicked span.dot {
+  animation: item 0.3s ease-in forwards;
+}
+
+.card:hover .buttons {
+  opacity: 1;
+}
+
+.card:hover .weight {
+  margin-top: 10px;
+}
+
+.card:hover {
+  z-index: 2;
+  overflow: hidden;
+}
+
+.carta img {
+  width: 100%;
+  height: 300px !important;
+}
+
+/********************************************Paralax*****************************************************/
+.parallax-background {
+  height: 600px;
+  width: 100%;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),
+    url(../media/devlivery.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parup {
+  margin-top: 10%;
+  font-size: 4em;
+}
+
+.pardown {
+  font-size: 4em;
+  margin-top: 10%;
+}
+
+#delivery {
+  width: 60%;
+  margin: 5% 0;
+}
+
+#money {
+  width: 40%;
+}
+
+/****************************************JUMBOS******************************************************/
+
+.jumbo1 {
+  background-image: url(/media/azul.jpg) center cover;
+}
+
+/*************************************************MEDIA QUERY**************************************************************************/
+
+@media screen and (max-width: 500px) {
+  .logologo {
+    height: 220px !important;
+    width: 200px !important;
+  }
+  .logo-place,
+  .logo-time,
+  .none {
+    display: none !important;
+  }
+
+  .banner {
+    height: 500px !important;
+  }
+  .banner .banner-desc h1 {
+    font-size: 1.5em !important;
+  }
+  .titulo {
+    margin: 3% !important;
+    font-size: 3em;
+  }
+
+  .wrapper {
+    margin: 0 !important;
+  }
+
+  /*.card {
+    margin: 0 !important;
+  }
+  .card img {
+    height: 400px !important;
+  }*/
+
+  .img-feature {
+    max-width: 100% !important;
+  }
+  .featurette-heading {
+    margin-top: 3% !important;
+  }
+  .carta img {
+    width: 100%;
+    height: 150px !important;
+  }
+
+  footer {
+    margin: 0 !important;
+  }
+  .parallax-header {
+    width: 100% !important;
+  }
+
+  .parup {
+    margin-top: 10% !important;
+    font-size: 1.5em !important;
+  }
+
+  .pardown {
+    font-size: 1.5em !important;
+    margin-top: 85% !important;
+  }
+
+  #delivery {
+    width: 60%;
+    margin: 5% 0;
+  }
+
+  #money {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logologo {
+    height: 220px !important;
+    width: 200px !important;
+  }
+
+  .barra {
+    display: block;
+    margin: 0 auto;
+  }
+  .banner {
+    height: 600px;
+  }
+  .banner .banner-desc h1 {
+    font-size: 3em;
+  }
+
+  .wrapper {
+    margin: 0 !important;
+  }
+
+  /*.card {
+    margin: 0 !important;
+  }
+  .card img {
+    height: 350px !important;
+  }*/
+
+  .titulo {
+    margin: 3% !important;
+    font-size: 3em !important;
+  }
+
+  .img-feature {
+    width: 100% !important;
+  }
+  .parup {
+    margin-top: 60% !important;
+    font-size: 2.2em;
+  }
+
+  .pardown {
+    font-size: 2.2em;
+    margin-top: 60% !important;
+  }
+
+  #delivery {
+    width: 60%;
+    margin: 5% 0;
+  }
+
+  #money {
+    width: 40%;
+  }
+  #marg {
+    margin: 3% 0 !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .logologo {
+    height: 220px !important;
+    width: 200px !important;
+  }
+
+  .barra {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .nav-link {
+    font-size: 1em !important;
+  }
+
+  .none {
+    display: none;
+  }
+  .banner {
+    height: 500px;
+  }
+
+  /*.card img {
+    height: 400px !important;
+  }*/
+  .wrapper {
+    margin: 0 !important;
+  }
+  .titulo {
+    font-size: 4em;
+    margin: 5% 0 !important;
+  }
+  .parup {
+    margin-top: 40% !important;
+    font-size: 3em;
+  }
+
+  .pardown {
+    font-size: 3em;
+    margin-top: 40% !important;
+  }
+
+  #delivery {
+    width: 60%;
+    margin: 5% 0;
+  }
+
+  #money {
+    width: 40%;
+  }
+  #marg {
+    margin-top: 40%;
+  }
+}
+
+@media screen and (max-width: 1444px) {
+  .logologo {
+    height: 220px !important;
+    width: 200px !important;
+  }
+
+  .barra {
+    display: block;
+    margin: 0 auto;
+  }
+  .banner {
+    height: 500px;
+  }
+
+  /*.card img {
+    height: 400px !important;
+  }*/
+
+  .titulo {
+    margin: 3% !important;
+    font-size: 3em !important;
+  }
+}
+
+@media screen and (max-width: 2600px) {
+  .titulo {
+    font-size: 4em;
+    margin: 3% 0 !important;
+  }
+
+  .parup {
+    margin-top: 20%;
+    font-size: 3em;
+  }
+
+  .pardown {
+    font-size: 3em;
+    margin-top: 20%;
+  }
+
+  #delivery {
+    width: 60%;
+    margin: 5% 0;
+  }
+
+  #money {
+    width: 40%;
+  }
+}
+
+/************************************************************/
