@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reparacion</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/eval.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!--NAV-->
+      <!--LOGO-->
+      <section class="navegation-logo">
+        <nav class="navbar navbar-expand-lg navbar-light w-100 barra-logo">
+          <div class="logo-place"><span>encuentranos aqui</span></div>
+          <div class="logo">
+            <img src="./media/logo.jpg" alt="Green Garden" class="logologo" />
+          </div>
+          <div class="logo-time"><span>
+            <!--modal-->
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-order go" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Sign In
+            </button>
+            
+            <!-- cuerpo modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                    <!-- Email input -->
+                       <div class="form-outline mb-4">
+                         <input type="email" id="form2Example1" class="form-control" />
+                          <label class="form-label" for="form2Example1">Email address</label>
+                       </div>
+
+                      <!-- Password input -->
+                        <div class="form-outline mb-4">
+                          <input type="password" id="form2Example2" class="form-control" />
+                          <label class="form-label" for="form2Example2">Password</label>
+                        </div>
+
+                      <!-- 2 column grid layout for inline styling -->
+                      <div class="row mb-4">
+                      <div class="col d-flex justify-content-center">
+                      <!-- Checkbox -->
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="form2Example34" checked />
+                        <label class="form-check-label" for="form2Example34"> Remember me </label>
+                      </div>
+                      </div>
+
+                      <div class="col">
+                      <!-- Simple link -->
+                        <a href="#!">Forgot password?</a>
+                      </div>
+                    </div>
+
+                      <!-- Submit button -->
+                    <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+
+                    <!-- Register buttons -->
+                    <div class="text-center">
+                      <p>Not a member? <a href="#!">Register</a></p>
+                      <p>or sign up with:</p>
+                    <button type="button" class="btn btn-primary btn-floating mx-1">
+                    <i class="fab fa-facebook-f"></i>
+                    </button>
+
+                    <button type="button" class="btn btn-primary btn-floating mx-1">
+                      <i class="fab fa-google"></i>
+                     </button>
+
+                    <button type="button" class="btn btn-primary btn-floating mx-1">
+                      <i class="fab fa-twitter"></i>
+                    </button>
+
+                  <button type="button" class="btn btn-primary btn-floating mx-1">
+                    <i class="fab fa-github"></i>
+                  </button>
+                  </div>
+                  </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div></span></div>
+            <!--modal-->
+        </nav>
+      </section>
+      <!--Fin LOGO-->
+      <nav class="navbar navbar-expand-lg navbar-dark w-100 barra">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand mx-4 py-3 fw-bolder none"
+            href="#"
+            >Green Garden<i class="bi bi-exclamation-circle h4"></i></a
+          >
+          <!--boton nativo-->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item pe-4">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item pe-4">
+                <a class="nav-link" href="#catalogue">Catalogue</a>
+              </li>
+              <li class="nav-item pe-4">
+                <a class="nav-link" href="#ofertas">Les Offres</a>
+              </li>
+              <li class="nav-item pe-4">
+                <a class="nav-link" href="#mix">Conseils et +</a>
+              </li>
+              <li class="nav-item pe-4">
+                <a class="nav-link" href="#"><i class="bi bi-cart-plus h2"></i></a>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item pe-4">
+                <nav class="navbar navbar-light bg-light">
+                  <div class="container-fluid ">
+                    <form class="d-flex ">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-order go" type="submit">Search</button>
+                    </form>
+                  </div>
+                </nav>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--Fin NAV-->
+      <!--BANNER-->
+      <section
+        class="banner d-flex justify-content-center align-items-center pt-5"
+      >
+        <div class="row">
+          <div class="col-12 banner-desc lh-lg vertical">
+            <h1 class="text-capitalize py-3">
+              Nuestra inspiracion, nace de usted
+            </h1>
+            <p class="text-center">
+              <button class="btn btn-order btn-lg my-5 rounded-3">
+                Shop Now
+              </button>
+              <button class="btn btn-outline btn-lg rounded-3">
+                Learn More
+              </button>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--fin BANNER-->
+      <!--CATALOGUE-->
+      <div class="container marketing">
+        <h1 class="text-center titulo" id="catalogue">Catalogue</h1>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading text-center">
+              Notre sélection de fleurs.
+              <span class="text-muted">Pour vous.</span>
+            </h2>
+            <p class="lead text-center">
+              <button class="btn btn-order rounded-3 go">Decouvrir</button>
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img src="/media/tulipan.jpg" style="width: 90%" alt="" />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading text-center">
+              Notre variété d'arbustes.
+              <span class="text-muted">Prêt pour vous.</span>
+            </h2>
+            <p class="lead text-center">
+              <button class="btn btn-order rounded-3 go">Decouvrir</button>
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img src="/media/arbusto.jpg" style="width: 90%" alt="" />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading text-center">
+              Notre diversitéde matériel,
+              <span class="text-muted">à main et motorisés</span>
+            </h2>
+            <p class="lead text-center">
+              <button class="btn btn-order rounded-3 go">Decouvrir</button>
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img src="/media/jardineria.jpg" style="width: 90%" alt="" />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+      </div>
+      <!--Fin CATALOGUE-->
+      <!--ABOUT-->
+      <!--OFERTAS-->
+      <h1 class="text-center titulo" id="ofertas">
+        Nos Offres de saisson
+      </h1>
+      <!--Primera linea de ofertas-->
+      <div class="wrapper">
+        <div class="container-fluid">
+          <div class="row g-1">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card  carta p-3">
+                <div class="text-center">
+                  <img src="/media/azul.jpg" />
+                </div>
+                <div class="product-details">
+                  <span class="font-weight-bold d-block">$ 7.00</span>
+                  <span>Red Redish</span>
+                  <div class="buttons d-flex flex-row">
+                    <div class="cart"><i class="bi bi-cart-plus-fill"></i></div>
+                    <button class="btn  btn-order cart-button btn-block go">
+                      <span class="dot">1</span>Add to cart
+                    </button>
+                  </div>
+                  <div class="weight"><small>1 piece 2.5kg</small></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card carta p-3">
+                <div class="text-center">
+                  <img src="/media/azul.jpg" />
+                </div>
+                <div class="product-details">
+                  <span class="font-weight-bold d-block">$ 7.00</span>
+                  <span>Red Redish</span>
+                  <div class="buttons d-flex flex-row">
+                    <div class="cart"><i class="bi bi-cart-plus-fill"></i></i></div>
+                    <button class="btn  btn-order cart-button btn-block go">
+                      <span class="dot">1</span>Add to cart
+                    </button>
+                  </div>
+                  <div class="weight"><small>1 piece 2.5kg</small></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card carta p-3">
+                <div class="text-center">
+                  <img src="/media/azul.jpg"  />
+                </div>
+                <div class="product-details">
+                  <span class="font-weight-bold d-block">$ 7.00</span>
+                  <span>Red Redish</span>
+                  <div class="buttons d-flex flex-row">
+                    <div class="cart"><i class="bi bi-cart-plus-fill"></i></i></div>
+                    <button class="btn  btn-order cart-button btn-block go">
+                      <span class="dot">1</span>Add to cart
+                    </button>
+                  </div>
+                  <div class="weight"><small>1 piece 2.5kg</small></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card carta p-3">
+                <div class="text-center">
+                  <img src="/media/azul.jpg"  />
+                </div>
+                <div class="product-details">
+                  <span class="font-weight-bold d-block">$ 7.00</span>
+                  <span>Red Redish</span>
+                  <div class="buttons d-flex flex-row">
+                    <div class="cart"><i class="bi bi-cart-plus-fill"></i></i></div>
+                    <button class="btn  btn-order cart-button btn-block go">
+                      <span class="dot">1</span>Add to cart
+                    </button>
+                  </div>
+                  <div class="weight"><small>20 piece 2.5kg</small></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Fin primera linea de ofertas-->
+      <!--Segunda linea de ofertas-->
+      <div class="wrapper">
+        <div class="container-fluid">
+          <div class="row g-1">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card  carta p-3">
+                <div class="text-center">
+                  <img src="/media/azul.jpg" />
+                </div>
+                <div class="product-details">
+                  <span class="font-weight-bold d-block">$ 7.00</span>
+                  <span>Red Redish</span>
+                  <div class="buttons d-flex flex-row">
+                    <div class="cart"><i class="bi bi-cart-plus-fill"></i></div>
+                    <button class="btn  btn-order cart-button btn-block go">
+                      <span class="dot">1</span>Add to cart
+                    </button>
+                  </div>
+                  <div class="weight"><small>1 piece 2.5kg</small></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card carta p-3">
+                <div class="text-center">
+                  <img src="/media/azul.jpg" />
+                </div>
+                <div class="product-details">
+                  <span class="font-weight-bold d-block">$ 7.00</span>
+                  <span>Red Redish</span>
+                  <div class="buttons d-flex flex-row">
+                    <div class="cart"><i class="bi bi-cart-plus-fill"></i></i></div>
+                    <button class="btn  btn-order cart-button btn-block go">
+                      <span class="dot">1</span>Add to cart
+                    </button>
+                  </div>
+                  <div class="weight"><small>1 piece 2.5kg</small></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card carta p-3">
+                <div class="text-center">
+                  <img src="/media/azul.jpg"  />
+                </div>
+                <div class="product-details">
+                  <span class="font-weight-bold d-block">$ 7.00</span>
+                  <span>Red Redish</span>
+                  <div class="buttons d-flex flex-row">
+                    <div class="cart"><i class="bi bi-cart-plus-fill"></i></i></div>
+                    <button class="btn  btn-order cart-button btn-block go">
+                      <span class="dot">1</span>Add to cart
+                    </button>
+                  </div>
+                  <div class="weight"><small>1 piece 2.5kg</small></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card carta p-3">
+                <div class="text-center">
+                  <img src="/media/azul.jpg"  />
+                </div>
+                <div class="product-details">
+                  <span class="font-weight-bold d-block">$ 7.00</span>
+                  <span>Red Redish</span>
+                  <div class="buttons d-flex flex-row">
+                    <div class="cart"><i class="bi bi-cart-plus-fill"></i></i></div>
+                    <button class="btn  btn-order cart-button btn-block go">
+                      <span class="dot">1</span>Add to cart
+                    </button>
+                  </div>
+                  <div class="weight"><small>20 piece 2.5kg</small></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--fin segunda linea de ofertas-->
+      
+
+      <!--parallax-->
+    
+        <!--container-->
+        <div class="container-fluid parallax-background text-light">
+        <div class="content row">
+          <div class="col -12 col-md-6 left">
+            <h1 class=" text-center parup">Entrega en casa</h1>
+            <p class="fast text-center"><img src="deliveryBlanco.png" id="delivery" alt=""></p>
+          </div>
+  
+          <div class="col-12 col-md-6 right">
+            <h1 class=" text-center pardown">Facilidad de pago</h1>
+            <p class="fast text-center"><img src="moneyBlanco.png" id="money" alt=""></p>
+          </div>
+        </div>  
+        </div>     
+      </div>
+      
+
+
+      <!--consejos-->
+      
+      <!--Fin consejos-->
+
+      <section class="final-mix container" id="mix">
+        <div class="row">
+       
+          <div class="col-12 col-md-6 col-lg-8">
+                
+            <hr>
+            <h1 class="text-center titulilo">Consejos e ideas</h1>
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary">World</strong>
+                <h3 class="mb-0">Featured post</h3>
+                <div class="mb-1 text-muted">Nov 12</div>
+                <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="stretched-link">Continue reading</a>
+              </div>
+                <div class="col-auto d-none d-lg-block">
+                 <img src="/media/azul.jpg"  class="img-fluid" width="350" alt="">
+
+                </div>
+            </div>
+             
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary">World</strong>
+                <h3 class="mb-0">Featured post</h3>
+                <div class="mb-1 text-muted">Nov 12</div>
+                <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="stretched-link">Continue reading</a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img src="/media/azul.jpg"  class="img-fluid" width="350" alt="">
+      
+              </div>
+            </div>
+  
+  
+          </div>
+          <!--Izquierda-->
+          <div class="col-12 col-md-6 col-lg-4">
+            
+      <!--CAROUSEL-->
+      <hr>
+      <h1 class="text-center titulilo" id="marg">Articles</h1>
+      <div id="carouselExampleCaptions" class="carousel slide container" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner cont-carousel contenedor">
+          <div class="carousel-item active">
+            <a href="#"><img src="/media/articulo1.jpg" class="d-block w-100" alt="..."></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="text-light titulo">First slide label</h1>
+              <p class="text-light">Description.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="#"><img src="/media/articulo2.jpg" class="d-block w-100" alt="..."></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-light">Second slide label</h5>
+              <p class="text-light">Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+           <a href="#"><img src="/media/articulo3.jpg" class="d-block w-100" alt="..."></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-light">Third slide label</h5>
+              <p class="text-light">Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--CAROUSEL-->
+          </div>
+      
+      </div>  
+      </div>
+      </section>
+      <br><br>
+
+
+
+     <!--FOOTER-->
+    
+     <footer class="text-center text-white fondo">
+       <!-- Grid container -->
+       <div class="container p-4 pb-0">
+         <!-- Section: CTA -->
+         <section class="">
+           <p class="d-flex justify-content-center align-items-center">
+             <span class="me-3">Register for free </span><!-- Button trigger modal -->
+             <button type="button" class="btn btn-order go" data-bs-toggle="modal" data-bs-target="#exampleModal">
+               Register
+             </button>
+             
+             <!-- Modal -->
+             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                   </div>
+                   <div class="modal-body">
+                     ...
+                   </div>
+                   <div class="modal-footer">
+                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                     <button type="button" class="btn btn-primary">Save changes</button>
+                   </div>
+                 </div>
+               </div>
+             </div>
+              
+           </p>
+         </section>
+         <!-- Section: CTA -->
+       </div>
+       <!-- Grid container -->
+   
+       <!-- Copyright -->
+       <div class="text-center p-3 copyright">
+         © 2022 Copyright:
+         <a class="text-white" href="#home"></a>
+       </div>
+       <!-- Copyright -->
+     </footer>
+     <!-- Footer -->
+   </section>
+      <!--Div Final-->
+    </div>
+    <!--Div Final-->
+    <!--SCRIPTS-->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+      posicionarMenu();
+
+      $(window).scroll(function () {
+        posicionarMenu();
+      });
+
+      function posicionarMenu() {
+        var altura_del_header = $(".barra-logo").outerHeight(true);
+        var altura_del_menu = $(".barra").outerHeight(true);
+
+        if ($(window).scrollTop() >= altura_del_header) {
+          $(".barra").addClass("fixed");
+          $(".wrapper").css("margin-top", altura_del_menu + "px");
+        } else {
+          $(".barra").removeClass("fixed");
+          $(".wrapper").css("margin-top", "0");
+        }
+      }
+    </script>
+  </body>
+</html>
+

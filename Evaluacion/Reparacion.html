@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Garden</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/eval.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!--NAV-->
+      <section class="navegation-logo">
+        <!--LOGO-->
+        <nav class="navbar navbar-expand-lg navbar-light barra-logo">
+          <div class="logo-place"><span>encuentranos aqui</span></div>
+          <div class="logo">
+            <img src="./media/logo.jpg" alt="Green Garden" class="logologo" />
+          </div>
+          <div class="logo-time"><span>abiertos desde</span></div>
+        </nav>
+        <!--./Fin LOGO-->
+        <!-------------------------------------------------------->
+
+        <!------------------------------------------------------->
+
+        <nav class="navbar navbar-expand-lg navbar-dark barra w-100">
+          <!--problemas con el w-100    -->
+          <div class="container-fluid">
+            <a
+              class="navbar-brand text-uppercase mx-4 py-3 fw-bolder"
+              id="hide"
+              href="#"
+              >Green Garden</a
+            >
+            <!--boton nativo-->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item pe-4">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Accueil</a
+                  >
+                </li>
+                <li class="nav-item pe-4">
+                  <a class="nav-link" href="#">Découvrir</a>
+                </li>
+                <li class="nav-item pe-4">
+                  <a class="nav-link" href="#">Les classiques</a>
+                </li>
+                <li class="nav-item pe-4">
+                  <a class="nav-link" href="#">otro</a>
+                </li>
+              </ul>
+              <!--ultimo toque-->
+              <ul class="navbar-nav">
+                <li class="nav-item pe-4">
+                  <a class="btn btn-order rounded-3" href="#">Shopping</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <!--Fin NAV-->
+      <!--BANNER-->
+      <section
+        class="banner d-flex justify-content-center align-items-center pt-5"
+      >
+        <div class="row">
+          <div class="col-12 banner-desc lh-lg vertical">
+            <h1 class="text-capitalize py-3">
+              Nuestra inspiracion, nace de usted
+            </h1>
+            <p class="text-center">
+              <button class="btn btn-order btn-lg my-5 rounded-3">
+                Shop Now
+              </button>
+              <button class="btn btn-outline-info btn-lg rounded-3">
+                Learn More
+              </button>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--fin BANNER-->
+      <!--CARDS-->
+      <section class="wrapper">
+        <div class="row">
+          <h1 class="text-center p-5">Categories</h1>
+          <div class="col-12 col-md-4">
+            <h1 class="text-center">Fleurs</h1>
+            <div class="card text-center">
+              <div class="image"><img src="media/flowers.jpg" /></div>
+              <div class="about-product text-center">
+                <button class="btn btn-success buy-now">Go!</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <h1 class="text-center">Arbustes</h1>
+            <div class="card text-center">
+              <div class="image"><img src="media/arbusto1.jpg" /></div>
+              <div class="about-product text-center">
+                <button class="btn btn-success buy-now">Go!</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <h1 class="text-center">Materiels</h1>
+            <div class="card text-center">
+              <div class="image"><img src="media/arbusto2.jpg" /></div>
+              <div class="about-product text-center">
+                <button class="btn btn-success buy-now">Go!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--cierre div Container-->
+    </div>
+
+    <!--------------------------------SCRIPTS-------------------------------------------------------------------->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+      posicionarMenu();
+
+      $(window).scroll(function () {
+        posicionarMenu();
+      });
+
+      function posicionarMenu() {
+        var altura_del_header = $(".barra-logo").outerHeight(true);
+        var altura_del_menu = $(".barra").outerHeight(true);
+
+        if ($(window).scrollTop() >= altura_del_header) {
+          $(".barra").addClass("fixed");
+          $(".wrapper").css("margin-top", altura_del_menu + "px");
+        } else {
+          $(".barra").removeClass("fixed");
+          $(".wrapper").css("margin-top", "0");
+        }
+      }
+    </script>
+  </body>
+</html>

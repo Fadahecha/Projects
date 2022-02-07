@@ -1,0 +1,78 @@
+/*****LOGO*****/
+
+.logologo {
+  height: 250px;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo-time,
+.logo-place {
+  display: block;
+  margin: 0 auto;
+}
+
+.barra-logo {
+  height: 180px;
+  justify-content: space-around;
+}
+
+/**Class pour JQuery**/
+.fixed {
+  position: fixed;
+  top: 0;
+}
+
+/*****NAV*****/
+
+.barra {
+  background-color: silver; /*rgba(0, 0, 0, 0.55);*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 1px 1px 3px silver;
+  z-index: 1;
+}
+
+.vertical {
+  text-align: center;
+}
+
+.barra .nav-link {
+  font-size: 1.2em;
+  border-bottom: 1px solid transparent;
+  transition: padding-bottom 1s ease-in-out, border-color 1s ease, font-size 1s;
+}
+
+.barra .nav-link:hover {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom-color: green;
+}
+
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../media/jardin1.jpg") center center fixed no-repeat;
+  background-size: cover;
+  height: 1100px;
+}
+
+.banner .banner-desc h1 {
+  font-size: 48px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.btn-order {
+  color: var(--bs-teal);
+  border-color: var(--bs-teal);
+  transition: 0.5s;
+}
+
+.btn-order:hover,
+.btn-order:focus,
+.btn-order:active {
+  color: #fff;
+  background-color: var(--bs-teal);
+}
+
+/*************************************************************************************************************************************/
