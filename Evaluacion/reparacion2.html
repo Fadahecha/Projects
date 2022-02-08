@@ -13,92 +13,185 @@
     <link rel="stylesheet" href="css/eval.css" />
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="">
       <!--NAV-->
       <!--LOGO-->
       <section class="navegation-logo">
         <nav class="navbar navbar-expand-lg navbar-light w-100 barra-logo">
-          <div class="logo-place"><span>encuentranos aqui</span></div>
+          <div class="logo-place"><span>Trouvez nous ici</span></div>
           <div class="logo">
             <img src="./media/logo.jpg" alt="Green Garden" class="logologo" />
           </div>
           <div class="logo-time"><span>
-            <!--modal-->
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-order go" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              Sign In
-            </button>
             
-            <!-- cuerpo modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-order go" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Se conecter
+</button>
+
+<!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">    
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Mon Compte</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!--pills-->
+  
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link btn-order go active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Se Connecter</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link btn-order go mx-5" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Creez une compte</button>
+          </li>
+        </ul>
+            <!--SE CONNECTER// CREER UNE COMPTE-->
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <!--Se conecter-->
+            <form>
+              <div class="text-center mb-3">
+                <p>Se connecter avec:</p>
+                <button type="button" class="btn btn-primary btn-floating mx-1">
+                  <i class="fab fa-facebook-f"></i>
+                </button>
+        
+                <button type="button" class="btn btn-primary btn-floating mx-1">
+                  <i class="fab fa-google"></i>
+                </button>
+        
+                <button type="button" class="btn btn-primary btn-floating mx-1">
+                  <i class="fab fa-twitter"></i>
+                </button>
+        
+                <button type="button" class="btn btn-primary btn-floating mx-1">
+                  <i class="fab fa-github"></i>
+                </button>
+              </div>
+        
+              <p class="text-center">ou avec:</p>
+        
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <input type="email" id="loginName" class="form-control" />
+                <label class="form-label" for="loginName">Email</label>
+              </div>
+        
+              <!-- Password input -->
+              <div class="form-outline mb-4">
+                <input type="password" id="loginPassword" class="form-control" />
+                <label class="form-label" for="loginPassword">Mot de passe</label>
+              </div>
+        
+              <!-- 2 column grid layout -->
+              <div class="row mb-4">
+                <div class="col-md-6 d-flex justify-content-center">
+                  <!-- Checkbox -->
+                  <div class="form-check mb-3 mb-md-0">
+                    <input class="form-check-input" type="checkbox" value="" id="loginCheck" checked />
+                    <label class="form-check-label" for="loginCheck"> Se souvenir de moi </label>
                   </div>
-                  <div class="modal-body">
-                    <form>
-                    <!-- Email input -->
-                       <div class="form-outline mb-4">
-                         <input type="email" id="form2Example1" class="form-control" />
-                          <label class="form-label" for="form2Example1">Email address</label>
-                       </div>
+                </div>
+        
+                <div class="col-md-6 d-flex justify-content-center">
+                  <!-- Simple link -->
+                  <a href="#!">Mot de passe oublié?</a>
+                </div>
+              </div>
+        
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-order go btn-block mb-4">Se connecter</button>
+            </form>
+          </div>
 
-                      <!-- Password input -->
-                        <div class="form-outline mb-4">
-                          <input type="password" id="form2Example2" class="form-control" />
-                          <label class="form-label" for="form2Example2">Password</label>
-                        </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...adios...
 
-                      <!-- 2 column grid layout for inline styling -->
-                      <div class="row mb-4">
-                      <div class="col d-flex justify-content-center">
-                      <!-- Checkbox -->
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="form2Example34" checked />
-                        <label class="form-check-label" for="form2Example34"> Remember me </label>
-                      </div>
-                      </div>
-
-                      <div class="col">
-                      <!-- Simple link -->
-                        <a href="#!">Forgot password?</a>
-                      </div>
-                    </div>
-
-                      <!-- Submit button -->
-                    <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
-
-                    <!-- Register buttons -->
-                    <div class="text-center">
-                      <p>Not a member? <a href="#!">Register</a></p>
-                      <p>or sign up with:</p>
-                    <button type="button" class="btn btn-primary btn-floating mx-1">
-                    <i class="fab fa-facebook-f"></i>
-                    </button>
-
-                    <button type="button" class="btn btn-primary btn-floating mx-1">
-                      <i class="fab fa-google"></i>
-                     </button>
-
-                    <button type="button" class="btn btn-primary btn-floating mx-1">
-                      <i class="fab fa-twitter"></i>
-                    </button>
-
-                  <button type="button" class="btn btn-primary btn-floating mx-1">
-                    <i class="fab fa-github"></i>
-                  </button>
+            <!--Creer une compte-->
+            <form>
+              <!-- 2 column grid layout with text inputs for the first and last names -->
+              <div class="row mb-4">
+                <div class="col">
+                  <div class="form-outline">
+                    <input type="text" id="prenom" class="form-control" />
+                    <label class="form-label" for="prenom">Prénom</label>
                   </div>
-                  </form>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+                <div class="col">
+                  <div class="form-outline">
+                    <input type="text" id="nom" class="form-control" />
+                    <label class="form-label" for="nom">Nom</label>
                   </div>
                 </div>
               </div>
-            </div></span></div>
+            
+              <!-- Text input -->
+              <div class="form-outline mb-4">
+                <input type="text" id="civilite" class="form-control" />
+                <label class="form-label" for="civilite">Civilité</label>
+              </div>
+            
+              <!-- Text input -->
+              <div class="form-outline mb-4">
+                <input type="text" id="adresse" class="form-control" />
+                <label class="form-label" for="adresse">Adresse</label>
+              </div>
+            
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <input type="email" id="email" class="form-control" />
+                <label class="form-label" for="email">Email</label>
+              </div>
+
+              <!-- Password input -->
+              <div class="form-outline mb-4">
+                <input type="password" id="password" class="form-control" />
+                <label class="form-label" for="password">Mot de passe</label>
+              </div>
+
+              <!-- Repeat Password input -->
+              <div class="form-outline mb-4">
+                <input type="password" id="confpassword" class="form-control" />
+                <label class="form-label" for="confpassword">Confirm mot de passe</label>
+              </div>
+            
+              <!-- Number input -->
+              <div class="form-outline mb-4">
+                <input type="number" id="telephone" class="form-control" />
+                <label class="form-label" for="telephone">Téléphone</label>
+              </div>
+            
+              <!-- Message input -->
+              <div class="form-outline mb-4">
+                <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+                <label class="form-label" for="form6Example7">Additional information</label>
+              </div>
+            
+              <!-- Checkbox -->
+              <div class="form-check d-flex justify-content-center mb-4">
+                <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8" checked />
+                <label class="form-check-label" for="form6Example8"> Recevoir la Newsletter? </label>
+              </div>
+            
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-order go btn-block mb-4">Creer un compte</button>
+            </form>
+          </div>
+        </div>
+       
+
+
+        <!--pills-->
+      </div>
+      
+    </div>
+  </div>
+    </div>
+
+
+            </span></div>
             <!--modal-->
         </nav>
       </section>
@@ -110,8 +203,8 @@
             href="#"
             >Green Garden<i class="bi bi-exclamation-circle h4"></i></a
           >
-          <!--boton nativo-->
-          <button
+        <!--boton nativo-->
+             <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
@@ -121,7 +214,7 @@
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
-          </button>
+             </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
@@ -142,42 +235,42 @@
               </li>
             </ul>
             <ul class="navbar-nav">
-              <li class="nav-item pe-4">
-                <nav class="navbar navbar-light bg-light">
-                  <div class="container-fluid ">
+              <li class="nav-item pe-4">               
                     <form class="d-flex ">
                       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                       <button class="btn btn-order go" type="submit">Search</button>
-                    </form>
-                  </div>
-                </nav>
+                    </form>                   
               </li>
             </ul>
           </div>
         </div>
       </nav>
       <!--Fin NAV-->
+
+
       <!--BANNER-->
       <section
         class="banner d-flex justify-content-center align-items-center pt-5"
       >
         <div class="row">
           <div class="col-12 banner-desc lh-lg vertical">
-            <h1 class="text-capitalize py-3">
-              Nuestra inspiracion, nace de usted
+            <h1 class="text-center py-3">
+              Votre inspiration, notre engagement.
             </h1>
             <p class="text-center">
               <button class="btn btn-order btn-lg my-5 rounded-3">
-                Shop Now
+                Acheter
               </button>
               <button class="btn btn-outline btn-lg rounded-3">
-                Learn More
+                Découvrir
               </button>
             </p>
           </div>
         </div>
       </section>
       <!--fin BANNER-->
+
+
       <!--CATALOGUE-->
       <div class="container marketing">
         <h1 class="text-center titulo" id="catalogue">Catalogue</h1>
@@ -191,11 +284,11 @@
               <span class="text-muted">Pour vous.</span>
             </h2>
             <p class="lead text-center">
-              <button class="btn btn-order rounded-3 go">Decouvrir</button>
+              <button class="btn btn-order rounded-3 go">Découvrir</button>
             </p>
           </div>
           <div class="col-md-5">
-            <img src="/media/tulipan.jpg" style="width: 90%" alt="" />
+            <img src="media/tulipan.jpg" style="width: 90%" alt="" />
           </div>
         </div>
 
@@ -208,11 +301,11 @@
               <span class="text-muted">Prêt pour vous.</span>
             </h2>
             <p class="lead text-center">
-              <button class="btn btn-order rounded-3 go">Decouvrir</button>
+              <button class="btn btn-order rounded-3 go">Découvrir</button>
             </p>
           </div>
           <div class="col-md-5">
-            <img src="/media/arbusto.jpg" style="width: 90%" alt="" />
+            <img src="media/arbusto.jpg" style="width: 90%" alt="" />
           </div>
         </div>
 
@@ -225,18 +318,19 @@
               <span class="text-muted">à main et motorisés</span>
             </h2>
             <p class="lead text-center">
-              <button class="btn btn-order rounded-3 go">Decouvrir</button>
+              <button class="btn btn-order rounded-3 go">Découvrir</button>
             </p>
           </div>
           <div class="col-md-5">
-            <img src="/media/jardineria.jpg" style="width: 90%" alt="" />
+            <img src="media/jardineria.jpg" style="width: 90%" alt="" />
           </div>
         </div>
 
         <hr class="featurette-divider" />
       </div>
       <!--Fin CATALOGUE-->
-      <!--ABOUT-->
+
+
       <!--OFERTAS-->
       <h1 class="text-center titulo" id="ofertas">
         Nos Offres de saisson
@@ -248,72 +342,72 @@
             <div class="col-12 col-md-6 col-lg-3">
               <div class="card  carta p-3">
                 <div class="text-center">
-                  <img src="/media/azul.jpg" />
+                  <img src="media/azul.jpg" />
                 </div>
                 <div class="product-details">
                   <span class="font-weight-bold d-block">$ 7.00</span>
-                  <span>Red Redish</span>
+                  <span>Azul</span>
                   <div class="buttons d-flex flex-row">
                     <div class="cart"><i class="bi bi-cart-plus-fill"></i></div>
                     <button class="btn  btn-order cart-button btn-block go">
-                      <span class="dot">1</span>Add to cart
+                      <span class="dot">1</span>Ajouter au panier
                     </button>
                   </div>
-                  <div class="weight"><small>1 piece 2.5kg</small></div>
+                  <div class="weight"><small>En stock</small></div>
                 </div>
               </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
               <div class="card carta p-3">
                 <div class="text-center">
-                  <img src="/media/azul.jpg" />
+                  <img src="media/azul.jpg" />
                 </div>
                 <div class="product-details">
                   <span class="font-weight-bold d-block">$ 7.00</span>
-                  <span>Red Redish</span>
+                  <span>Azul</span>
                   <div class="buttons d-flex flex-row">
                     <div class="cart"><i class="bi bi-cart-plus-fill"></i></i></div>
                     <button class="btn  btn-order cart-button btn-block go">
-                      <span class="dot">1</span>Add to cart
+                      <span class="dot">1</span>Ajouter au panier
                     </button>
                   </div>
-                  <div class="weight"><small>1 piece 2.5kg</small></div>
+                  <div class="weight"><small>En stock</small></div>
                 </div>
               </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
               <div class="card carta p-3">
                 <div class="text-center">
-                  <img src="/media/azul.jpg"  />
+                  <img src="media/azul.jpg"  />
                 </div>
                 <div class="product-details">
                   <span class="font-weight-bold d-block">$ 7.00</span>
-                  <span>Red Redish</span>
+                  <span>Azul</span>
                   <div class="buttons d-flex flex-row">
                     <div class="cart"><i class="bi bi-cart-plus-fill"></i></i></div>
                     <button class="btn  btn-order cart-button btn-block go">
-                      <span class="dot">1</span>Add to cart
+                      <span class="dot">1</span>Ajouter au panier
                     </button>
                   </div>
-                  <div class="weight"><small>1 piece 2.5kg</small></div>
+                  <div class="weight"><small>En stock</small></div>
                 </div>
               </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
               <div class="card carta p-3">
                 <div class="text-center">
-                  <img src="/media/azul.jpg"  />
+                  <img src="media/azul.jpg"  />
                 </div>
                 <div class="product-details">
                   <span class="font-weight-bold d-block">$ 7.00</span>
-                  <span>Red Redish</span>
+                  <span>Azul</span>
                   <div class="buttons d-flex flex-row">
                     <div class="cart"><i class="bi bi-cart-plus-fill"></i></i></div>
                     <button class="btn  btn-order cart-button btn-block go">
-                      <span class="dot">1</span>Add to cart
+                      <span class="dot">1</span>Ajouter au panier
                     </button>
                   </div>
-                  <div class="weight"><small>20 piece 2.5kg</small></div>
+                  <div class="weight"><small>En stock</small></div>
                 </div>
               </div>
             </div>
@@ -328,72 +422,72 @@
             <div class="col-12 col-md-6 col-lg-3">
               <div class="card  carta p-3">
                 <div class="text-center">
-                  <img src="/media/azul.jpg" />
+                  <img src="media/azul.jpg" />
                 </div>
                 <div class="product-details">
                   <span class="font-weight-bold d-block">$ 7.00</span>
-                  <span>Red Redish</span>
+                  <span>Azul</span>
                   <div class="buttons d-flex flex-row">
                     <div class="cart"><i class="bi bi-cart-plus-fill"></i></div>
                     <button class="btn  btn-order cart-button btn-block go">
-                      <span class="dot">1</span>Add to cart
+                      <span class="dot">1</span>Ajouter au panier
                     </button>
                   </div>
-                  <div class="weight"><small>1 piece 2.5kg</small></div>
+                  <div class="weight"><small>En stock</small></div>
                 </div>
               </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
               <div class="card carta p-3">
                 <div class="text-center">
-                  <img src="/media/azul.jpg" />
+                  <img src="media/azul.jpg" />
                 </div>
                 <div class="product-details">
                   <span class="font-weight-bold d-block">$ 7.00</span>
-                  <span>Red Redish</span>
+                  <span>Azul</span>
                   <div class="buttons d-flex flex-row">
                     <div class="cart"><i class="bi bi-cart-plus-fill"></i></i></div>
                     <button class="btn  btn-order cart-button btn-block go">
-                      <span class="dot">1</span>Add to cart
+                      <span class="dot">1</span>Ajouter au panier
                     </button>
                   </div>
-                  <div class="weight"><small>1 piece 2.5kg</small></div>
+                  <div class="weight"><small>En stock</small></div>
                 </div>
               </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
               <div class="card carta p-3">
                 <div class="text-center">
-                  <img src="/media/azul.jpg"  />
+                  <img src="media/azul.jpg"  />
                 </div>
                 <div class="product-details">
                   <span class="font-weight-bold d-block">$ 7.00</span>
-                  <span>Red Redish</span>
+                  <span>Azul</span>
                   <div class="buttons d-flex flex-row">
                     <div class="cart"><i class="bi bi-cart-plus-fill"></i></i></div>
                     <button class="btn  btn-order cart-button btn-block go">
-                      <span class="dot">1</span>Add to cart
+                      <span class="dot">1</span>Ajouter au panier
                     </button>
                   </div>
-                  <div class="weight"><small>1 piece 2.5kg</small></div>
+                  <div class="weight"><small>En stock</small></div>
                 </div>
               </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
               <div class="card carta p-3">
                 <div class="text-center">
-                  <img src="/media/azul.jpg"  />
+                  <img src="media/azul.jpg"  />
                 </div>
                 <div class="product-details">
                   <span class="font-weight-bold d-block">$ 7.00</span>
-                  <span>Red Redish</span>
+                  <span>Azul</span>
                   <div class="buttons d-flex flex-row">
                     <div class="cart"><i class="bi bi-cart-plus-fill"></i></i></div>
                     <button class="btn  btn-order cart-button btn-block go">
-                      <span class="dot">1</span>Add to cart
+                      <span class="dot">1</span>Ajouter au panier
                     </button>
                   </div>
-                  <div class="weight"><small>20 piece 2.5kg</small></div>
+                  <div class="weight"><small>En stock</small></div>
                 </div>
               </div>
             </div>
@@ -401,39 +495,33 @@
         </div>
       </div>
       <!--fin segunda linea de ofertas-->
-      
+      <!--fin OFERTAS-->
 
       <!--parallax-->
-    
-        <!--container-->
+      <h1 class="text-center titulo">Information Général</h1>
         <div class="container-fluid parallax-background text-light">
         <div class="content row">
           <div class="col -12 col-md-6 left">
-            <h1 class=" text-center parup">Entrega en casa</h1>
-            <p class="fast text-center"><img src="deliveryBlanco.png" id="delivery" alt=""></p>
+            <h1 class=" text-center parup">LIVRAISON OFFERTE</h1>
+            <p class="fast text-center"><img src="media/deliveryBlanco.png" id="delivery" alt=""></p>
           </div>
   
           <div class="col-12 col-md-6 right">
-            <h1 class=" text-center pardown">Facilidad de pago</h1>
-            <p class="fast text-center"><img src="moneyBlanco.png" id="money" alt=""></p>
+            <h1 class=" text-center pardown">PAIEMENT SÉCURISÉ</h1>
+            <p class="fast text-center"><img src="media/moneyBlanco.png" id="money" alt=""></p>
           </div>
         </div>  
         </div>     
-      </div>
-      
-
+      <!--fin parallax-->
 
       <!--consejos-->
-      
-      <!--Fin consejos-->
-
-      <section class="final-mix container" id="mix">
+       <section class="final-mix container" id="mix">
         <div class="row">
        
           <div class="col-12 col-md-6 col-lg-8">
                 
             <hr>
-            <h1 class="text-center titulilo">Consejos e ideas</h1>
+            <h1 class="text-center  consejos">Conseils et idées</h1>
             <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
               <div class="col p-4 d-flex flex-column position-static">
                 <strong class="d-inline-block mb-2 text-primary">World</strong>
@@ -443,7 +531,7 @@
                 <a href="#" class="stretched-link">Continue reading</a>
               </div>
                 <div class="col-auto d-none d-lg-block">
-                 <img src="/media/azul.jpg"  class="img-fluid" width="350" alt="">
+                 <img src="media/azul.jpg"  class="img-fluid" width="350" alt="">
 
                 </div>
             </div>
@@ -457,7 +545,7 @@
                 <a href="#" class="stretched-link">Continue reading</a>
               </div>
               <div class="col-auto d-none d-lg-block">
-                <img src="/media/azul.jpg"  class="img-fluid" width="350" alt="">
+                <img src="media/azul.jpg"  class="img-fluid" width="350" alt="">
       
               </div>
             </div>
@@ -469,7 +557,7 @@
             
       <!--CAROUSEL-->
       <hr>
-      <h1 class="text-center titulilo" id="marg">Articles</h1>
+      <h1 class="text-center" id="marg">Derniers articles</h1>
       <div id="carouselExampleCaptions" class="carousel slide container" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -478,21 +566,21 @@
         </div>
         <div class="carousel-inner cont-carousel contenedor">
           <div class="carousel-item active">
-            <a href="#"><img src="/media/articulo1.jpg" class="d-block w-100" alt="..."></a>
+            <a href="#"><img src="media/articulo1.jpg" class="d-block w-100" alt="..."></a>
             <div class="carousel-caption d-none d-md-block">
               <h1 class="text-light titulo">First slide label</h1>
               <p class="text-light">Description.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <a href="#"><img src="/media/articulo2.jpg" class="d-block w-100" alt="..."></a>
+            <a href="#"><img src="media/articulo2.jpg" class="d-block w-100" alt="..."></a>
             <div class="carousel-caption d-none d-md-block">
               <h5 class="text-light">Second slide label</h5>
               <p class="text-light">Some representative placeholder content for the second slide.</p>
             </div>
           </div>
           <div class="carousel-item">
-           <a href="#"><img src="/media/articulo3.jpg" class="d-block w-100" alt="..."></a>
+           <a href="#"><img src="media/articulo3.jpg" class="d-block w-100" alt="..."></a>
             <div class="carousel-caption d-none d-md-block">
               <h5 class="text-light">Third slide label</h5>
               <p class="text-light">Some representative placeholder content for the third slide.</p>
@@ -509,52 +597,27 @@
         </button>
       </div>
       <!--CAROUSEL-->
+      
           </div>
       
       </div>  
-      </div>
       </section>
-      <br><br>
+      <!--Fin consejos-->
 
+    </div>
+    <br>
 
 
      <!--FOOTER-->
-    
      <footer class="text-center text-white fondo">
        <!-- Grid container -->
-       <div class="container p-4 pb-0">
-         <!-- Section: CTA -->
+       <div class="container p-4 pb-0">        
          <section class="">
            <p class="d-flex justify-content-center align-items-center">
-             <span class="me-3">Register for free </span><!-- Button trigger modal -->
-             <button type="button" class="btn btn-order go" data-bs-toggle="modal" data-bs-target="#exampleModal">
-               Register
-             </button>
-             
-             <!-- Modal -->
-             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-               <div class="modal-dialog">
-                 <div class="modal-content">
-                   <div class="modal-header">
-                     <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                   </div>
-                   <div class="modal-body">
-                     ...
-                   </div>
-                   <div class="modal-footer">
-                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                     <button type="button" class="btn btn-primary">Save changes</button>
-                   </div>
-                 </div>
-               </div>
-             </div>
-              
-           </p>
+             <span class="me-3">Register for free </span>                                     </p>
          </section>
-         <!-- Section: CTA -->
        </div>
-       <!-- Grid container -->
+       
    
        <!-- Copyright -->
        <div class="text-center p-3 copyright">
@@ -564,34 +627,16 @@
        <!-- Copyright -->
      </footer>
      <!-- Footer -->
-   </section>
-      <!--Div Final-->
-    </div>
-    <!--Div Final-->
+
+   
+    
     <!--SCRIPTS-->
+    
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/greenGarden.js"></script> 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script>
-      posicionarMenu();
-
-      $(window).scroll(function () {
-        posicionarMenu();
-      });
-
-      function posicionarMenu() {
-        var altura_del_header = $(".barra-logo").outerHeight(true);
-        var altura_del_menu = $(".barra").outerHeight(true);
-
-        if ($(window).scrollTop() >= altura_del_header) {
-          $(".barra").addClass("fixed");
-          $(".wrapper").css("margin-top", altura_del_menu + "px");
-        } else {
-          $(".barra").removeClass("fixed");
-          $(".wrapper").css("margin-top", "0");
-        }
-      }
-    </script>
+    
   </body>
 </html>
 

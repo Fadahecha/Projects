@@ -91,14 +91,6 @@
   margin: 3% !important;
   font-size: 4em;
 }
-/*
-.card {
-  margin: 0 5% !important;
-}
-
-.card img {
-  height: 800px !important;
-}*/
 /***************************************GEN******************************************************************/
 .go {
   color: #fff;
@@ -140,7 +132,7 @@
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-/******************************************************/
+
 
 /********************************************************Ofertas*********************************************************/
 
@@ -296,13 +288,6 @@
     margin: 0 !important;
   }
 
-  /*.card {
-    margin: 0 !important;
-  }
-  .card img {
-    height: 400px !important;
-  }*/
-
   .img-feature {
     max-width: 100% !important;
   }
@@ -328,7 +313,7 @@
 
   .pardown {
     font-size: 1.5em !important;
-    margin-top: 85% !important;
+    margin-top: 75% !important;
   }
 
   #delivery {
@@ -362,12 +347,6 @@
     margin: 0 !important;
   }
 
-  /*.card {
-    margin: 0 !important;
-  }
-  .card img {
-    height: 350px !important;
-  }*/
 
   .titulo {
     margin: 3% !important;
@@ -378,13 +357,13 @@
     width: 100% !important;
   }
   .parup {
-    margin-top: 60% !important;
+    margin-top: 60%;              /*parallax*/
     font-size: 2.2em;
   }
 
   .pardown {
     font-size: 2.2em;
-    margin-top: 60% !important;
+    margin-top: 60% ;             /*parallax*/
   }
 
   #delivery {
@@ -422,9 +401,6 @@
     height: 500px;
   }
 
-  /*.card img {
-    height: 400px !important;
-  }*/
   .wrapper {
     margin: 0 !important;
   }
@@ -433,13 +409,13 @@
     margin: 5% 0 !important;
   }
   .parup {
-    margin-top: 40% !important;
+    margin-top: 40% ;       /*parallax*/
     font-size: 3em;
   }
 
   .pardown {
     font-size: 3em;
-    margin-top: 40% !important;
+    margin-top: 40% ;       /*parallax*/
   }
 
   #delivery {
@@ -455,7 +431,7 @@
   }
 }
 
-@media screen and (max-width: 1444px) {
+@media screen and (max-width: 1440px) {
   .logologo {
     height: 220px !important;
     width: 200px !important;
@@ -469,17 +445,24 @@
     height: 500px;
   }
 
-  /*.card img {
-    height: 400px !important;
-  }*/
-
   .titulo {
     margin: 3% !important;
     font-size: 3em !important;
   }
+
+
+  .parup {
+    margin-top: 30% ;       /*parallax*/
+    font-size: 3em;
+  }
+
+  .pardown {
+    font-size: 3em;
+    margin-top: 30% ;       /*parallax*/
+  }
 }
 
-@media screen and (max-width: 2600px) {
+@media screen and (min-width: 2500px) {
   .titulo {
     font-size: 4em;
     margin: 3% 0 !important;
@@ -503,6 +486,15 @@
   #money {
     width: 40%;
   }
+
+  #marg {
+    margin-top: 0;
+  }
+
+  .none{
+    display: block;
+  }
+
 }
 
 /************************************************************/
