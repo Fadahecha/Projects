@@ -115,8 +115,11 @@
 }
 
 .contenedor {
-  height: 100% !important;
+  height: 100% !important; 
+  
 }
+
+
 
 .fondo {
   margin-top: 5%;
@@ -131,6 +134,9 @@
   color: #ef5350;
   background-color: rgba(0, 0, 0, 0.2);
 }
+
+
+
 
 
 
