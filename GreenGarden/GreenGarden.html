@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Garden</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/GreenGarden.css" />
+  </head>
+  <body>
+    <!--NAV-->
+    <!--LOGO/logIn-->
+    <div class="navegation-logo">
+      <nav class="navbar navbar-expand-lg navbar-light w-100 barra-logo">
+        <div class="logo-place"><a href="#carte">Trouvez nous ici</a></div>
+        <div class="logo">
+          <img
+            src="./media/logo.jpg"
+            alt="Green Garden logo"
+            class="logologo"
+          />
+        </div>
+        <div class="logo-time">
+          <div>
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="btn btn-order go"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Se conecter
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Mon Compte
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <!--pills-->
+
+                    <ul
+                      class="nav nav-pills mb-3"
+                      id="pills-tab"
+                      role="tablist"
+                    >
+                      <li class="nav-item" role="presentation">
+                        <button
+                          class="nav-link btn-order go active"
+                          id="pills-home-tab"
+                          data-bs-toggle="pill"
+                          data-bs-target="#pills-home"
+                          type="button"
+                          role="tab"
+                          aria-controls="pills-home"
+                          aria-selected="true"
+                        >
+                          Se Connecter
+                        </button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button
+                          class="nav-link btn-order go mx-5"
+                          id="pills-profile-tab"
+                          data-bs-toggle="pill"
+                          data-bs-target="#pills-profile"
+                          type="button"
+                          role="tab"
+                          aria-controls="pills-profile"
+                          aria-selected="false"
+                        >
+                          Creez une compte
+                        </button>
+                      </li>
+                    </ul>
+                    <!--SE CONNECTER// CREER UNE COMPTE-->
+                    <div class="tab-content" id="pills-tabContent">
+                      <div
+                        class="tab-pane fade show active"
+                        id="pills-home"
+                        role="tabpanel"
+                        aria-labelledby="pills-home-tab"
+                      >
+                        <!--Se conecter-->
+                        <form>
+                          <div class="text-center mb-3">
+                            <p>Se connecter avec:</p>
+                            <button
+                              type="button"
+                              class="btn btn-primary btn-floating mx-1"
+                            >
+                              <i class="fab fa-facebook-f"></i>
+                            </button>
+
+                            <button
+                              type="button"
+                              class="btn btn-primary btn-floating mx-1"
+                            >
+                              <i class="fab fa-google"></i>
+                            </button>
+
+                            <button
+                              type="button"
+                              class="btn btn-primary btn-floating mx-1"
+                            >
+                              <i class="fab fa-twitter"></i>
+                            </button>
+
+                            <button
+                              type="button"
+                              class="btn btn-primary btn-floating mx-1"
+                            >
+                              <i class="fab fa-github"></i>
+                            </button>
+                          </div>
+
+                          <p class="text-center">ou avec:</p>
+
+                          <!-- Email input -->
+                          <div class="form-outline mb-4">
+                            <input
+                              type="email"
+                              id="loginName"
+                              class="form-control"
+                            />
+                            <label class="form-label" for="loginName"
+                              >Email</label
+                            >
+                          </div>
+
+                          <!-- Password input -->
+                          <div class="form-outline mb-4">
+                            <input
+                              type="password"
+                              id="loginPassword"
+                              class="form-control"
+                            />
+                            <label class="form-label" for="loginPassword"
+                              >Mot de passe</label
+                            >
+                          </div>
+
+                          <!-- 2 column grid layout -->
+                          <div class="row mb-4">
+                            <div class="col-md-6 d-flex justify-content-center">
+                              <!-- Checkbox -->
+                              <div class="form-check mb-3 mb-md-0">
+                                <input
+                                  class="form-check-input"
+                                  type="checkbox"
+                                  value=""
+                                  id="loginCheck"
+                                  checked
+                                />
+                                <label
+                                  class="form-check-label"
+                                  for="loginCheck"
+                                >
+                                  Se souvenir de moi
+                                </label>
+                              </div>
+                            </div>
+
+                            <div class="col-md-6 d-flex justify-content-center">
+                              <!-- Simple link -->
+                              <a href="#!">Mot de passe oublié?</a>
+                            </div>
+                          </div>
+
+                          <!-- Submit button -->
+                          <button
+                            type="submit"
+                            class="btn btn-order go btn-block mb-4"
+                          >
+                            Se connecter
+                          </button>
+                        </form>
+                      </div>
+
+                      <div
+                        class="tab-pane fade"
+                        id="pills-profile"
+                        role="tabpanel"
+                        aria-labelledby="pills-profile-tab"
+                      >
+                        <!--Creer une compte-->
+                        <form>
+                          <!-- 2 column grid layout with text inputs for the first and last names -->
+                          <div class="row mb-4">
+                            <div class="col">
+                              <div class="form-outline">
+                                <span class="valider" id="sp1">Error</span>
+                                <!--error-->
+                                <input
+                                  type="text"
+                                  id="prenom"
+                                  class="form-control"
+                                />
+                                <label class="form-label" for="prenom"
+                                  >Prénom</label
+                                >
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="form-outline">
+                                <span class="valider" id="sp2">Error</span>
+                                <!--error-->
+                                <input
+                                  type="text"
+                                  id="nom"
+                                  class="form-control"
+                                />
+                                <label class="form-label" for="nom">Nom</label>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Text input -->
+                          <div class="form-outline mb-4">
+                            <input
+                              type="text"
+                              id="civilite"
+                              class="form-control"
+                            />
+                            <label class="form-label" for="civilite"
+                              >Civilité</label
+                            >
+                          </div>
+
+                          <!-- Text input -->
+                          <div class="form-outline mb-4">
+                            <input
+                              type="text"
+                              id="adresse"
+                              class="form-control"
+                            />
+                            <label class="form-label" for="adresse"
+                              >Adresse</label
+                            >
+                          </div>
+
+                          <!-- Email input -->
+                          <div class="form-outline mb-4">
+                            <input
+                              type="email"
+                              id="email"
+                              class="form-control"
+                            />
+                            <label class="form-label" for="email">Email</label>
+                          </div>
+
+                          <!-- Password input -->
+                          <div class="form-outline mb-4">
+                            <input
+                              type="password"
+                              id="password"
+                              class="form-control"
+                            />
+                            <label class="form-label" for="password"
+                              >Mot de passe</label
+                            >
+                          </div>
+
+                          <!-- Repeat Password input -->
+                          <div class="form-outline mb-4">
+                            <span class="valider" id="sp3">Error</span>
+                            <!--error-->
+                            <input
+                              type="password"
+                              id="confpassword"
+                              class="form-control"
+                            />
+                            <label class="form-label" for="confpassword"
+                              >Confirm mot de passe</label
+                            >
+                          </div>
+
+                          <!-- Number input -->
+                          <div class="form-outline mb-4">
+                            <input
+                              type="number"
+                              id="telephone"
+                              class="form-control"
+                            />
+                            <label class="form-label" for="telephone"
+                              >Téléphone</label
+                            >
+                          </div>
+
+                          <!-- Message input -->
+                          <div class="form-outline mb-4">
+                            <textarea
+                              class="form-control"
+                              id="form6Example7"
+                              rows="4"
+                            ></textarea>
+                            <label class="form-label" for="form6Example7"
+                              >Additional information</label
+                            >
+                          </div>
+
+                          <!-- Checkbox -->
+                          <div
+                            class="form-check d-flex justify-content-center mb-4"
+                          >
+                            <input
+                              class="form-check-input me-2"
+                              type="checkbox"
+                              value=""
+                              id="form6Example8"
+                              checked
+                            />
+                            <label class="form-check-label" for="form6Example8">
+                              Recevoir la Newsletter?
+                            </label>
+                          </div>
+
+                          <!-- Submit button -->
+                          <button
+                            type="submit"
+                            class="btn btn-order go btn-block mb-4"
+                            id="creerCompte"
+                          >
+                            Creer un compte
+                          </button>
+                        </form>
+                      </div>
+                    </div>
+
+                    <!--pills-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--modal-->
+      </nav>
+    </div>
+    <!--Fin LOGO-->
+    <nav class="navbar navbar-expand-lg navbar-dark w-100 barra">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-4 py-3 fw-bolder none" href="#"
+          >Green Garden<i class="bi bi-exclamation-circle h4"></i
+        ></a>
+        <!--boton nativo-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item pe-4">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link" href="#catalogue">Catalogue</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link" href="#ofertas">Les Offres</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link" href="#mix">Conseils et +</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link" href="#"
+                ><i class="bi bi-cart-plus h2"></i
+              ></a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item pe-4">
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-order go" type="submit">Search</button>
+              </form>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Fin NAV-->
+
+    <!--BANNER-->
+    <section
+      class="banner d-flex justify-content-center align-items-center pt-5"
+    >
+      <div class="row">
+        <div class="col-12 banner-desc lh-lg vertical">
+          <h2 class="text-center py-3">Votre inspiration, notre engagement.</h2>
+          <p class="text-center">
+            <button class="btn btn-order btn-lg my-5 rounded-3">Acheter</button>
+            <button class="btn btn-outline btn-lg rounded-3">Découvrir</button>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--fin BANNER-->
+
+    <!--consejos-->
+    <section class="final-mix container" id="mix">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-5">
+          <!--CAROUSEL-->
+          <hr />
+          <h2 class="text-center" id="marg">Derniers articles</h2>
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide container"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner cont-carousel contenedor">
+              <div class="carousel-item active">
+                <a href="#"
+                  ><img
+                    src="  media/articulo3.jpg"
+                    class="d-block w-100 img-car"
+                    alt="1ère Article"
+                /></a>
+                <div class="carousel-caption d-none d-md-block cucu">
+                  <h2 class="text-dark titulo carou">First slide label</h2>
+                  <p class="text-light carou"></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="#"
+                  ><img
+                    src=" media/articulo2.jpg"
+                    class="d-block w-100 img-car"
+                    alt="2ème Arrticle"
+                /></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-light titulo carou">Second slide label</h5>
+                  <p class="text-light carou"></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="#"
+                  ><img
+                    src="media/articulo1.jpg"
+                    class="d-block w-100 img-car"
+                    alt="3ème Article"
+                /></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-light titulo carou">Third slide label</h5>
+                  <p class="text-light carou"></p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!--Fin CAROUSEL-->
+        </div>
+        <!--links/idées-->
+        <div class="col-12 col-md-6 col-lg-7">
+          <hr />
+          <h2 class="text-center consejos">Conseils et idées</h2>
+          <div
+            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          >
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary"
+                >Rochefort</strong
+              >
+              <h3 class="mb-0">Prière de la Sérénité</h3>
+              <div class="mb-1 text-muted">Fev 15</div>
+              <p class="card-text mb-auto">
+                Dieu, donne-nous la grâce d'accepter avec sérénité les choses
+                qui ne peuvent être changées...
+              </p>
+              <a href="#" class="stretched-link">Continuer la lecture</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img
+                src="media/azul.jpg"
+                class="img-fluid"
+                width="350"
+                alt="conseil image"
+              />
+            </div>
+          </div>
+
+          <div
+            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          >
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary"
+                >Rochefort</strong
+              >
+              <h3 class="mb-0">Continuation</h3>
+              <div class="mb-1 text-muted">Fev 15</div>
+              <p class="card-text mb-auto">
+                ...le courage de changer celles qui devraient l'être, et la
+                sagesse de les distinguer l'une de l'autre.
+              </p>
+              <a href="#" class="stretched-link">Continuer la lecture</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img
+                src="media/azul.jpg"
+                class="img-fluid"
+                width="350"
+                alt="conseil image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Fin consejos-->
+
+    <!--CATALOGUE-->
+    <div class="container marketing">
+      <h1 class="text-center titulo" id="catalogue">Catalogue</h1>
+
+      <hr class="featurette-divider" />
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading text-center">
+            Notre sélection de fleurs.
+            <span class="text-muted">Pour vous.</span>
+          </h2>
+          <p class="lead text-center">
+            <button class="btn btn-order rounded-3 go">Découvrir</button>
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img src="media/tulipan.jpg" style="width: 90%" alt="Fleurs" />
+        </div>
+      </div>
+
+      <hr class="featurette-divider" />
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading text-center">
+            Notre variété d'arbustes.
+            <span class="text-muted">Prêt pour votre jardin.</span>
+          </h2>
+          <p class="lead text-center">
+            <button class="btn btn-order rounded-3 go">Découvrir</button>
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img src="media/arbusto.jpg" style="width: 90%" alt="Arbustes" />
+        </div>
+      </div>
+
+      <hr class="featurette-divider" />
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading text-center">
+            Notre diversité de matériel,
+            <span class="text-muted">à main et motorisés</span>
+          </h2>
+          <p class="lead text-center">
+            <button class="btn btn-order rounded-3 go">Découvrir</button>
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img src="media/jardineria.jpg" style="width: 90%" alt="Materiels" />
+        </div>
+      </div>
+
+      <hr class="featurette-divider" />
+    </div>
+    <!--Fin CATALOGUE-->
+
+    <!--OFERTAS-->
+    <h1 class="text-center titulo" id="ofertas">Nos Offres de saisson</h1>
+    <!--Primera linea de ofertas-->
+    <div class="wrapper">
+      <div class="container-fluid">
+        <div class="row g-1">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card carta p-3">
+              <div class="text-center">
+                <img src="media/azul.jpg" alt="offre 1" />
+              </div>
+              <div class="product-details">
+                <span class="font-weight-bold d-block">$ 7.00</span>
+                <span>Azul</span>
+                <div class="buttons d-flex flex-row">
+                  <div class="cart"><i class="bi bi-cart-plus-fill"></i></div>
+                  <button class="btn btn-order cart-button btn-block go">
+                    <span class="dot">1</span>Ajouter au panier
+                  </button>
+                </div>
+                <div class="weight"><small>En stock</small></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card carta p-3">
+              <div class="text-center">
+                <img src="media/azul.jpg" alt="offre 2" />
+              </div>
+              <div class="product-details">
+                <span class="font-weight-bold d-block">$ 7.00</span>
+                <span>Azul</span>
+                <div class="buttons d-flex flex-row">
+                  <div class="cart"><i class="bi bi-cart-plus-fill"></i></div>
+                  <button class="btn btn-order cart-button btn-block go">
+                    <span class="dot">1</span>Ajouter au panier
+                  </button>
+                </div>
+                <div class="weight"><small>En stock</small></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card carta p-3">
+              <div class="text-center">
+                <img src="media/azul.jpg " alt="offre 3" />
+              </div>
+              <div class="product-details">
+                <span class="font-weight-bold d-block">$ 7.00</span>
+                <span>Azul</span>
+                <div class="buttons d-flex flex-row">
+                  <div class="cart"><i class="bi bi-cart-plus-fill"></i></div>
+                  <button class="btn btn-order cart-button btn-block go">
+                    <span class="dot">1</span>Ajouter au panier
+                  </button>
+                </div>
+                <div class="weight"><small>En stock</small></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card carta p-3">
+              <div class="text-center">
+                <img src="media/azul.jpg" alt="offre 4" />
+              </div>
+              <div class="product-details">
+                <span class="font-weight-bold d-block">$ 7.00</span>
+                <span>Azul</span>
+                <div class="buttons d-flex flex-row">
+                  <div class="cart"><i class="bi bi-cart-plus-fill"></i></div>
+                  <button class="btn btn-order cart-button btn-block go">
+                    <span class="dot">1</span>Ajouter au panier
+                  </button>
+                </div>
+                <div class="weight"><small>En stock</small></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Fin primera linea de ofertas-->
+    <!--Segunda linea de ofertas-->
+    <div class="wrapper">
+      <div class="container-fluid">
+        <div class="row g-1">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card carta p-3">
+              <div class="text-center">
+                <img src="media/azul.jpg" alt="offre 5" />
+              </div>
+              <div class="product-details">
+                <span class="font-weight-bold d-block">$ 7.00</span>
+                <span>Azul</span>
+                <div class="buttons d-flex flex-row">
+                  <div class="cart"><i class="bi bi-cart-plus-fill"></i></div>
+                  <button class="btn btn-order cart-button btn-block go">
+                    <span class="dot">1</span>Ajouter au panier
+                  </button>
+                </div>
+                <div class="weight"><small>En stock</small></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card carta p-3">
+              <div class="text-center">
+                <img src="media/azul.jpg" alt="offre 6" />
+              </div>
+              <div class="product-details">
+                <span class="font-weight-bold d-block">$ 7.00</span>
+                <span>Azul</span>
+                <div class="buttons d-flex flex-row">
+                  <div class="cart"><i class="bi bi-cart-plus-fill"></i></div>
+                  <button class="btn btn-order cart-button btn-block go">
+                    <span class="dot">1</span>Ajouter au panier
+                  </button>
+                </div>
+                <div class="weight"><small>En stock</small></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card carta p-3">
+              <div class="text-center">
+                <img src="media/azul.jpg" alt="offre 7" />
+              </div>
+              <div class="product-details">
+                <span class="font-weight-bold d-block">$ 7.00</span>
+                <span>Azul</span>
+                <div class="buttons d-flex flex-row">
+                  <div class="cart"><i class="bi bi-cart-plus-fill"></i></div>
+                  <button class="btn btn-order cart-button btn-block go">
+                    <span class="dot">1</span>Ajouter au panier
+                  </button>
+                </div>
+                <div class="weight"><small>En stock</small></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card carta p-3">
+              <div class="text-center">
+                <img src="media/azul.jpg" alt="offre 8" />
+              </div>
+              <div class="product-details">
+                <span class="font-weight-bold d-block">$ 7.00</span>
+                <span>Azul</span>
+                <div class="buttons d-flex flex-row">
+                  <div class="cart"><i class="bi bi-cart-plus-fill"></i></div>
+                  <button class="btn btn-order cart-button btn-block go">
+                    <span class="dot">1</span>Ajouter au panier
+                  </button>
+                </div>
+                <div class="weight"><small>En stock</small></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--fin segunda linea de ofertas-->
+    <!--fin OFERTAS-->
+
+    <!--parallax-->
+    <h1 class="text-center titulo">Information Général</h1>
+    <div class="container-fluid parallax-background text-light">
+      <div class="content row">
+        <div class="col -12 col-md-6 left">
+          <h1 class="text-center parup">LIVRAISON OFFERTE</h1>
+          <p class="fast text-center">
+            <img src="media/deliveryBlanco.png" id="delivery" alt="Livraison" />
+          </p>
+        </div>
+
+        <div class="col-12 col-md-6 right">
+          <h1 class="text-center pardown">PAIEMENT SÉCURISÉ</h1>
+          <p class="fast text-center">
+            <img src="media/moneyBlanco.png" id="money" alt="Paiement" />
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--fin parallax-->
+
+    <!--FOOTER-->
+    <footer class="fondo">
+      <!-- Grid container -->
+      <div class="container-fluid p-4 pb-0">
+        <div class="extra">
+          <p class="d-flex justify-content-center align-items-center">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2773.6568153805056!2d-0.9660516841686078!3d45.95813940836888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480140c25987b351%3A0x531397db7e413b00!2sAFPA!5e0!3m2!1sfr!2sfr!4v1644647957215!5m2!1sfr!2sfr"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              class="w-100"
+              id="carte"
+            ></iframe>
+          </p>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="text-center p-3 copyright">
+        © 2022 Copyright:
+        <a class="text-white" href="#home"></a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <!--SCRIPTS-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/GreenGarden.js"></script>
+  </body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/NavBar.css" />
+  </head>
+  <body>
+    <!--navbar-->
+    <nav>
+      <div class="nav-bar">
+        <i class="bx bx-menu sidebarOpen"></i>
+        <span class="logo navLogo"><a href="#">Responsive Nav</a></span>
+
+        <div class="menu">
+          <div class="logo-toggle">
+            <span class="logo"><a href="#">Responsive Nav</a></span>
+            <i class="bx bx-x sidebarClose"></i>
+          </div>
+
+          <ul class="nav-links">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Portoflios</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+
+        <!--seccion de iconos con interaccion-->
+        <div class="darkLight-searchBox">
+          <!--Sol y luna-->
+          <div class="dark-light">
+            <i class="bx bx-moon luna"></i>
+            <i class="bx bx-sun sol"></i>
+          </div>
+          <!--cancel y buscador-->
+          <div class="searchBox">
+            <!--div agregado despues, hubo que sustituir en css y js-->
+            <div class="searchToggle">
+              <i class="bx bx-x cancel"></i>
+              <i class="bx bx-search buscar"></i>
+            </div>
+
+            <div class="search-field">
+              <input type="text" placeholder="Search..." />
+              <i class="bx bx-search buscar"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container marketing">
+      <h1 class="text-center titulo" id="catalogue">Catalogue</h1>
+
+      <hr class="featurette-divider" />
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading text-center">
+            Notre sélection de fleurs.
+            <span class="text-muted">Pour vous.</span>
+          </h2>
+          <p class="lead text-center">
+            <button class="btn btn-order rounded-3 go">Découvrir</button>
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img src="Media/azul.jpg" style="width: 90%" alt="Fleurs" />
+        </div>
+      </div>
+
+      <hr class="featurette-divider" />
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading text-center">
+            Notre variété d'arbustes.
+            <span class="text-muted">Prêt pour votre jardin.</span>
+          </h2>
+          <p class="lead text-center">
+            <button class="btn btn-order rounded-3 go">Découvrir</button>
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img src="Media/azul.jpg" style="width: 90%" alt="Arbustes" />
+        </div>
+      </div>
+
+      <hr class="featurette-divider" />
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading text-center">
+            Notre diversité de matériel,
+            <span class="text-muted">à main et motorisés</span>
+          </h2>
+          <p class="lead text-center">
+            <button class="btn btn-order rounded-3 go">Découvrir</button>
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img src="Media/azul.jpg" style="width: 90%" alt="Materiels" />
+        </div>
+      </div>
+
+      <hr class="featurette-divider" />
+    </div>
+    <script src="JS/NavBar.js"></script>
+  </body>
+</html>

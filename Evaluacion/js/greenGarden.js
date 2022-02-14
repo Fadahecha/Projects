@@ -11,6 +11,7 @@ function posicionarMenu() {
   
   if ($(window).scrollTop() >= altura_del_header) {
     $(".barra").addClass("fixed"); 
+    
   } else {
     $(".barra").removeClass("fixed");       
   }

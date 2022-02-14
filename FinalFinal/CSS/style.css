@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: block;
+  width: 100%;
+}
+
+.main-header {
+  padding: 0 20px;
+}
+
+.main-header-title {
+  text-align: center;
+  font-size: 2.5em;
+  margin: 10px 0;
+}
+.main-nav {
+  display: none;
+}
+
+.main-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-menu {
+  font-size: 1.5em;
+  border: 1px solid #454546;
+  display: block;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.main-header-btn {
+  display: block;
+  padding: 10px 30px;
+  border: 1px solid #454546;
+  color: #454546;
+  text-decoration: none;
+}
+
+.main-header-input {
+  display: block;
+  padding: 10px;
+}
