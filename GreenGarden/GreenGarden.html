@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -20,12 +20,12 @@
         <div class="logo-place"><a href="#carte">Trouvez nous ici</a></div>
         <div class="logo">
           <img
-            src="./media/logo.jpg"
+            src="media/logo.jpg"
             alt="Green Garden logo"
             class="logologo"
           />
         </div>
-        <div class="logo-time">
+        <div class="seconnecter">
           <div>
             <!-- Button trigger modal -->
             <button
@@ -34,7 +34,7 @@
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
             >
-              Se conecter
+              Se connecter
             </button>
 
             <!-- Modal -->
@@ -68,7 +68,7 @@
                     >
                       <li class="nav-item" role="presentation">
                         <button
-                          class="nav-link btn-order go active"
+                          class="nav-link btn-order  go active"
                           id="pills-home-tab"
                           data-bs-toggle="pill"
                           data-bs-target="#pills-home"
@@ -82,7 +82,7 @@
                       </li>
                       <li class="nav-item" role="presentation">
                         <button
-                          class="nav-link btn-order go mx-5"
+                          class="nav-link btn-order go monCompte mx-5"
                           id="pills-profile-tab"
                           data-bs-toggle="pill"
                           data-bs-target="#pills-profile"
@@ -104,35 +104,35 @@
                         aria-labelledby="pills-home-tab"
                       >
                         <!--Se conecter-->
-                        <form>
+                        <form action="#" method="post">
                           <div class="text-center mb-3">
                             <p>Se connecter avec:</p>
                             <button
                               type="button"
                               class="btn btn-primary btn-floating mx-1"
                             >
-                              <i class="fab fa-facebook-f"></i>
+                            <i class="bi bi-facebook"></i>
                             </button>
 
                             <button
                               type="button"
                               class="btn btn-primary btn-floating mx-1"
                             >
-                              <i class="fab fa-google"></i>
+                            <i class="bi bi-google"></i>
                             </button>
 
                             <button
                               type="button"
                               class="btn btn-primary btn-floating mx-1"
                             >
-                              <i class="fab fa-twitter"></i>
+                            <i class="bi bi-twitter"></i>
                             </button>
 
                             <button
                               type="button"
                               class="btn btn-primary btn-floating mx-1"
                             >
-                              <i class="fab fa-github"></i>
+                            <i class="bi bi-github"></i>
                             </button>
                           </div>
 
@@ -206,7 +206,7 @@
                         aria-labelledby="pills-profile-tab"
                       >
                         <!--Creer une compte-->
-                        <form>
+                        <form action="#" method="post">
                           <!-- 2 column grid layout with text inputs for the first and last names -->
                           <div class="row mb-4">
                             <div class="col">
@@ -356,7 +356,7 @@
             </div>
           </div>
         </div>
-        <!--modal-->
+        <!--fin modal-->
       </nav>
     </div>
     <!--Fin LOGO-->
@@ -410,6 +410,7 @@
                 <button class="btn btn-order go" type="submit">Search</button>
               </form>
             </li>
+            
           </ul>
         </div>
       </div>
@@ -553,7 +554,7 @@
             <div class="col-auto d-none d-lg-block">
               <img
                 src="media/azul.jpg"
-                class="img-fluid"
+                class="img-fluid img-conseil"
                 width="350"
                 alt="conseil image"
               />
@@ -578,7 +579,7 @@
             <div class="col-auto d-none d-lg-block">
               <img
                 src="media/azul.jpg"
-                class="img-fluid"
+                class="img-fluid img-conseil"
                 width="350"
                 alt="conseil image"
               />
@@ -606,7 +607,7 @@
           </p>
         </div>
         <div class="col-md-5">
-          <img src="media/tulipan.jpg" style="width: 90%" alt="Fleurs" />
+          <img src="media/tulipan.jpg" class="fleurs" alt="Fleurs" />
         </div>
       </div>
 
@@ -623,7 +624,7 @@
           </p>
         </div>
         <div class="col-md-5">
-          <img src="media/arbusto.jpg" style="width: 90%" alt="Arbustes" />
+          <img src="media/arbusto.jpg" class="arbustes" alt="Arbustes" />
         </div>
       </div>
 
@@ -632,7 +633,7 @@
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading text-center">
-            Notre diversité de matériel,
+            Notre diversité des matériels,
             <span class="text-muted">à main et motorisés</span>
           </h2>
           <p class="lead text-center">
@@ -640,7 +641,7 @@
           </p>
         </div>
         <div class="col-md-5">
-          <img src="media/jardineria.jpg" style="width: 90%" alt="Materiels" />
+          <img src="media/jardineria.jpg" class="materiels" alt="Materiels" />
         </div>
       </div>
 
@@ -813,7 +814,7 @@
     <!--fin OFERTAS-->
 
     <!--parallax-->
-    <h1 class="text-center titulo">Information Général</h1>
+    <h1 class="text-center titulo">Information Générale</h1>
     <div class="container-fluid parallax-background text-light">
       <div class="content row">
         <div class="col -12 col-md-6 left">
@@ -862,12 +863,13 @@
     <!-- Footer -->
 
     <!--SCRIPTS-->
+   
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/GreenGarden.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"
+></script>
+<script src="js/GreenGarden.js"></script>
   </body>
 </html>

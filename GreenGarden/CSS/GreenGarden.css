@@ -137,6 +137,30 @@
   color: red;
 }
 
+.btn-floating{
+  background-color: #ef5350;
+  border-color:#ef5350;
+}
+
+.btn-floating:hover{
+  background-color: var(--bs-teal);
+  border-color:var(--bs-teal);
+}
+
+.form-check-input{
+  color: #ef5350;
+}
+
+img{
+  object-fit: cover;
+}
+
+.fleurs, .arbustes, .materiels{
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
 /********************************************************Ofertas*********************************************************/
 
 .wrapper {
@@ -259,7 +283,17 @@
 
 /*************************************************MEDIA QUERY**************************************************************************/
 
-@media screen and (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 500px){
+
+  .monCompte{
+    margin:1%  0 !important;
+  }
+
+ .seconnecter{
+   position: absolute;
+   top: 1%;
+ }
+
   .logologo {
     height: 220px !important;
     width: 200px !important;
@@ -273,7 +307,7 @@
   .banner {
     height: 500px !important;
   }
-  .banner .banner-desc h1 {
+  .banner .banner-desc h2 {
     font-size: 1.5em !important;
   }
   .titulo {
@@ -323,7 +357,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 768px){
   .logologo {
     height: 220px !important;
     width: 200px !important;
@@ -336,7 +370,7 @@
   .banner {
     height: 600px;
   }
-  .banner .banner-desc h1 {
+  .banner .banner-desc h2 {
     font-size: 3em;
   }
 
@@ -353,29 +387,29 @@
     width: 100% !important;
   }
   .parup {
-    margin-top: 60%; /*parallax*/
-    font-size: 2.2em;
+    margin-top: 50%; /*parallax*/
+    font-size: 1.8em !important;
   }
 
   .pardown {
-    font-size: 2.2em;
-    margin-top: 60%; /*parallax*/
+    font-size: 1.8em !important;
+    margin-top: 50%; /*parallax*/
   }
 
   #delivery {
-    width: 60%;
+    width: 40%;
     margin: 5% 0;
   }
 
   #money {
-    width: 40%;
+    width: 30%;
   }
   #marg {
     margin: 3% 0 !important;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media (min-width: 1024px) {
   .logologo {
     height: 220px !important;
     width: 200px !important;
@@ -393,6 +427,11 @@
   .none {
     display: none;
   }
+
+  .banner .banner-desc h2 {
+    font-size: 2.5em;
+  }
+
   .banner {
     height: 500px;
   }
@@ -404,30 +443,35 @@
     font-size: 4em;
     margin: 5% 0 !important;
   }
+
+  .img-conseil{
+   display: none;
+  }
+
   .parup {
-    margin-top: 40%; /*parallax*/
+    margin-top: 30%; /*parallax*/
     font-size: 3em;
   }
 
   .pardown {
     font-size: 3em;
-    margin-top: 40%; /*parallax*/
+    margin-top: 30%; /*parallax*/
   }
 
   #delivery {
-    width: 60%;
+    width: 40%;
     margin: 5% 0;
   }
 
   #money {
-    width: 40%;
+    width: 25%;
   }
   #marg {
     margin-top: 20%;
   }
 }
 
-@media screen and (max-width: 1440px) {
+@media (min-width: 1440px) {
   .logologo {
     height: 220px !important;
     width: 200px !important;
@@ -446,40 +490,47 @@
     font-size: 3em !important;
   }
 
+  .consejos{
+    margin-top: 15%;
+  }
+
+  .img-conseil{
+    display:block;
+  }
   .parup {
-    margin-top: 30%; /*parallax*/
+    margin-top: 20% !important; /*parallax*/
     font-size: 3em;
   }
 
   .pardown {
     font-size: 3em;
-    margin-top: 30%; /*parallax*/
+    margin-top: 20% !important; /*parallax*/
   }
 }
 
-@media screen and (min-width: 2500px) {
+@media (min-width: 1900px) {
   .titulo {
     font-size: 4em;
     margin: 3% 0 !important;
   }
 
   .parup {
-    margin-top: 20%;
+    margin-top: 10% !important;
     font-size: 3em;
   }
 
   .pardown {
     font-size: 3em;
-    margin-top: 20%;
+    margin-top: 10% !important;
   }
 
   #delivery {
-    width: 60%;
+    width: 30% !important;
     margin: 5% 0;
   }
 
   #money {
-    width: 40%;
+    width: 20% !important;
   }
 
   #marg {
