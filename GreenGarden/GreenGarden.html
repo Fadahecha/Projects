@@ -19,11 +19,7 @@
       <nav class="navbar navbar-expand-lg navbar-light w-100 barra-logo">
         <div class="logo-place"><a href="#carte">Trouvez nous ici</a></div>
         <div class="logo">
-          <img
-            src="media/logo.jpg"
-            alt="Green Garden logo"
-            class="logologo"
-          />
+          <img src="media/logo.jpg" alt="Green Garden logo" class="logologo" />
         </div>
         <div class="seconnecter">
           <div>
@@ -68,7 +64,7 @@
                     >
                       <li class="nav-item" role="presentation">
                         <button
-                          class="nav-link btn-order  go active"
+                          class="nav-link btn-order go active"
                           id="pills-home-tab"
                           data-bs-toggle="pill"
                           data-bs-target="#pills-home"
@@ -111,28 +107,28 @@
                               type="button"
                               class="btn btn-primary btn-floating mx-1"
                             >
-                            <i class="bi bi-facebook"></i>
+                              <i class="bi bi-facebook"></i>
                             </button>
 
                             <button
                               type="button"
                               class="btn btn-primary btn-floating mx-1"
                             >
-                            <i class="bi bi-google"></i>
+                              <i class="bi bi-google"></i>
                             </button>
 
                             <button
                               type="button"
                               class="btn btn-primary btn-floating mx-1"
                             >
-                            <i class="bi bi-twitter"></i>
+                              <i class="bi bi-twitter"></i>
                             </button>
 
                             <button
                               type="button"
                               class="btn btn-primary btn-floating mx-1"
                             >
-                            <i class="bi bi-github"></i>
+                              <i class="bi bi-github"></i>
                             </button>
                           </div>
 
@@ -245,7 +241,7 @@
                               class="form-control"
                             />
                             <label class="form-label" for="civilite"
-                              >Civilité</label
+                              >Téléphone</label
                             >
                           </div>
 
@@ -271,42 +267,50 @@
                             <label class="form-label" for="email">Email</label>
                           </div>
 
-                          <!-- Password input -->
-                          <div class="form-outline mb-4">
-                            <input
-                              type="password"
-                              id="password"
-                              class="form-control"
-                            />
-                            <label class="form-label" for="password"
-                              >Mot de passe</label
-                            >
-                          </div>
+                          <div class="row mb-4">
+                            <div class="col">
+                              <!-- Password input -->
+                              <div class="form-outline mb-4">
+                                <input
+                                  type="password"
+                                  id="password"
+                                  class="form-control"
+                                  required
+                                />
+                                <label class="form-label" for="password"
+                                  >Mot de passe</label
+                                >
+                              </div>
+                            </div>
+                            <div class="col">
+                              <!-- Repeat Password input -->
+                              <div class="form-outline mb-4">
+                                <input
+                                  type="password"
+                                  id="confpassword"
+                                  class="form-control"
+                                />
+                                <label class="form-label" for="confpassword"
+                                  >Confirm mot de passe</label
+                                >
+                              </div>
 
-                          <!-- Repeat Password input -->
-                          <div class="form-outline mb-4">
-                            <span class="valider" id="sp3">Error</span>
-                            <!--error-->
-                            <input
-                              type="password"
-                              id="confpassword"
-                              class="form-control"
-                            />
-                            <label class="form-label" for="confpassword"
-                              >Confirm mot de passe</label
-                            >
+                              <span class="valider" id="sp3">Error</span>
+                              <!--error-->
+                            </div>
                           </div>
 
                           <!-- Number input -->
                           <div class="form-outline mb-4">
-                            <input
-                              type="number"
-                              id="telephone"
-                              class="form-control"
-                            />
-                            <label class="form-label" for="telephone"
-                              >Téléphone</label
+                            <select
+                              class="form-select"
+                              aria-label="Default select example"
                             >
+                              <option selected>Civilité</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
                           </div>
 
                           <!-- Message input -->
@@ -410,7 +414,6 @@
                 <button class="btn btn-order go" type="submit">Search</button>
               </form>
             </li>
-            
           </ul>
         </div>
       </div>
@@ -863,13 +866,13 @@
     <!-- Footer -->
 
     <!--SCRIPTS-->
-   
+
     <script src="js/bootstrap.bundle.min.js"></script>
-<script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous"
-></script>
-<script src="js/GreenGarden.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/GreenGarden.js"></script>
   </body>
 </html>

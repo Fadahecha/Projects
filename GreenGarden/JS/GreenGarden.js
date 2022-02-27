@@ -147,12 +147,20 @@ btn.addEventListener('click', function(){
     }
 })
 
-/* html
 
-<script src="js/bootstrap.bundle.min.js"></script>
-<script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous"
-></script>
-<script src="js/GreenGarden.js"></script>*/
+///////////////////////////////////////////////////////////////////
+
+
+var password = document.getElementById("password")
+  , confirm_password = document.getElementById("confpassword");
+
+function validatePassword(){
+  if(password.value != confirm_password.value) {
+    confirm_password.setCustomValidity("Passwords Don't Match");
+  } else {
+    confirm_password.setCustomValidity('');
+  }
+}
+
+password.onchange = validatePassword;
+confirm_password.onkeyup = validatePassword;
