@@ -1,0 +1,109 @@
+.intro {
+  display: flex;
+  height: 100vh;
+}
+
+/*separacion en secciones Left/Right*/
+
+.intro-left {
+  flex: 1; /*Esto agranda o disminuye el tamano de las secciones*/
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.intro-right {
+  flex: 1;
+  position: relative;
+}
+
+/*Left*/
+
+.intro-left-wrapper {
+  padding: 50px;
+  height: 50%;
+  display: flex;
+  flex-direction: column; /*porque estan en la misma columna*/
+  justify-content: space-evenly; /*space-between?*/
+}
+
+.intro-intro {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.intro-name {
+  font-size: 60px;
+}
+
+.intro-title {
+  /*este div tendra un alto de 50px con overflow:hidden,
+    y como los items en el interior tambien tienen un alto de 50px,
+    solo se puede mostrar uno solo, gracias al oveflow, necesario para nuestra animacion*/
+  height: 50px;
+  overflow: hidden;
+}
+
+.intro-title-wrapper {
+  height: 100%; /*=50px*/
+  animation: move 10s ease-in-out infinite alternate;
+}
+
+/*en la animacion tengo 5 items, pero uno siempre esta visible asi aue no se cuenta,
+serian 4*25%=100%*/
+@keyframes move {
+  25% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  75% {
+    transform: translateY(-150px);
+  }
+  100% {
+    transform: translateY(-200px);
+  }
+}
+
+.intro-title-item {
+  /*tamano de items para asegurar aue solo se muestre uno*/
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: turquoise;
+  display: flex;
+  align-items: center;
+}
+
+.intro-scroll {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 20px;
+  left: 20%;
+}
+
+/*****************************************/
+
+.intro-image {
+  width: 50%; /*modificado-100%*/
+  height: 50%; /*modificado-100%*/
+  object-fit: cover;
+  position: absolute;
+  /*agregado por la nueva imagen, se puede quitar*/
+  top: 25%;
+  right: 20%;
+}
+
+.intro-bg {
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+  background-color: turquoise;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/*********************MEDIA****************************/
