@@ -1,6 +1,6 @@
-/*nav fixed avec le scroll*/
-
-posicionarMenu();
+/* JQUERRY - nav fixed avec le scroll*/
+  $(function(){
+  posicionarMenu();
 
 $(window).scroll(function () {
   posicionarMenu();
@@ -8,7 +8,7 @@ $(window).scroll(function () {
 
 function posicionarMenu() {
   var altura_del_header = $(".barra-logo").outerHeight(true);
-  
+  console.log(altura_del_header);
   if ($(window).scrollTop() >= altura_del_header) {
     $(".barra").addClass("fixed"); 
     
@@ -16,6 +16,8 @@ function posicionarMenu() {
     $(".barra").removeClass("fixed");       
   }
 }
+});
+
 
 /*****************************************************************************/
 /*
@@ -91,7 +93,8 @@ btn.addEventListener('click', ()=>{
 })*/
 
 
-//const regName = /^[a-zA-Z]+ [a-zA-Z]+$/;
+//////////////////////////Final?////////////////////////////////
+
 const btn = document.getElementById('creerCompte');
  
 btn.addEventListener('click', function(){
