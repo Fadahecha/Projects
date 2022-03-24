@@ -1,0 +1,6 @@
+ <?php
+ ///////////////////  
+require_once('Modele.php');
+///////////////////
+require_once('vueAccueil.php');
+///////////////////
