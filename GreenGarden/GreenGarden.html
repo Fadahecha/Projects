@@ -100,7 +100,7 @@
                         aria-labelledby="pills-home-tab"
                       >
                         <!--Se conecter-->
-                        <form action="#" method="post">
+                        <form action="#" method="post" id="loginForm">
                           <div class="text-center mb-3">
                             <p>Se connecter avec:</p>
                             <button
@@ -138,24 +138,30 @@
                           <div class="form-outline mb-4">
                             <input
                               type="email"
-                              id="loginName"
+                              id="logEmail"
                               class="form-control"
                             />
-                            <label class="form-label" for="loginName"
+                            <small></small>
+                            <label class="form-label" for="logEmail"
                               >Email</label
                             >
+
+                            <!--validation-->
                           </div>
 
                           <!-- Password input -->
                           <div class="form-outline mb-4">
                             <input
                               type="password"
-                              id="loginPassword"
+                              id="logPass"
                               class="form-control"
                             />
-                            <label class="form-label" for="loginPassword"
+                            <small></small>
+                            <label class="form-label" for="logPass"
                               >Mot de passe</label
                             >
+
+                            <!--validation-->
                           </div>
 
                           <!-- 2 column grid layout -->
@@ -189,6 +195,7 @@
                           <button
                             type="submit"
                             class="btn btn-order go btn-block mb-4"
+                            id="login"
                           >
                             Se connecter
                           </button>
@@ -202,7 +209,7 @@
                         aria-labelledby="pills-profile-tab"
                       >
                         <!--Creer une compte-->
-                        <form action="#" method="post">
+                        <form action="#" method="post" id="createForm">
                           <!-- 2 column grid layout with text inputs for the first and last names -->
                           <div class="row mb-4">
                             <div class="col">
@@ -263,8 +270,11 @@
                               type="email"
                               id="email"
                               class="form-control"
+                              name="email"
                             />
                             <label class="form-label" for="email">Email</label>
+                            <small></small>
+                            <!--validation email-->
                           </div>
 
                           <div class="row mb-4">
@@ -275,11 +285,14 @@
                                   type="password"
                                   id="password"
                                   class="form-control"
+                                  name="password"
                                   required
                                 />
                                 <label class="form-label" for="password"
                                   >Mot de passe</label
                                 >
+                                <small></small>
+                                <!--validation password-->
                               </div>
                             </div>
                             <div class="col">
@@ -606,7 +619,9 @@
             <span class="text-muted">Pour vous.</span>
           </h2>
           <p class="lead text-center">
-            <button class="btn btn-order rounded-3 go"> <a href="Fleurs.html" class="lien1" target="_blank">Découvrir</a></button>
+            <button class="btn btn-order rounded-3 go">
+              <a href="Fleurs.html" class="lien1" target="_blank">Découvrir</a>
+            </button>
           </p>
         </div>
         <div class="col-md-5">

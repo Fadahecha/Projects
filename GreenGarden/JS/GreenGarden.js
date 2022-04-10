@@ -112,6 +112,36 @@ btn.addEventListener('click', function(){
     let confpassword = document.getElementById('confpassword'); //Confirm password
     let span3 = document.getElementById('sp3'); // span confirm
 
+    //////////////////////////////////////////////////////////////
+    let form = document.querySelector('#createForm');
+    //let email = document.getElementById('email'); //email
+
+    form.email.addEventListener('change', function(){
+      validEmail(this)
+  
+  });
+
+  const validEmail = function(inputEmail) {
+    //regexp para validacion de mail
+    let emailRegexp = new RegExp(
+      '^[a-zA-Z0-9.-_]+[@]{1}[a-zA-Z0-9.-_]+[.]{1}[a-z]{2,10}$', 'g'
+  
+    );
+  
+      let testEmail = emailRegexp.test(inputEmail.value)
+      let small = inputEmail.nextElementSibling
+  
+      if (testEmail){
+          small.innerHTML = "Adresse valide";
+      }else{
+        small.innerHTML = "adresse Non valide"
+      }
+  
+  }; 
+
+
+    ///////////////////////////////////////////////////////////// 
+
 
     //confirm Last Name
     if(nom.value.length<=2){        
@@ -167,3 +197,90 @@ function validatePassword(){
 
 password.onchange = validatePassword;
 confirm_password.onkeyup = validatePassword;
+
+
+//////////////////////////////////////////////////////////
+
+const logEmail = document.getElementById('logEmail');
+const logPass = document.getElementById('logPass');
+const form = document.querySelector('#loginForm'); //cuando recupero mi Form asi con un id, puedo recumerar todos sus inputs internos con sus 'name' por eso agregue 'name' a cada input
+
+form.addEventListener('submit', (e)=> {
+  e.preventDefault()
+});
+
+const validEmail = function(inputEmail) {
+  //regexp para validacion de mail
+  let emailRegexp = new RegExp(
+    '^[a-zA-Z0-9.-_]+[@]{1}[a-zA-Z0-9.-_]+[.]{1}[a-z]{2,10}$', 'g'
+
+  );
+
+    let testEmail = emailRegexp.test(inputEmail.value)
+    let small = inputEmail.nextElementSibling
+
+    if (testEmail){
+        small.innerHTML = "Adresse valide";
+    }else{
+      small.innerHTML = "adresse Non valide"
+    }
+
+}; 
+
+
+
+/*form.addEventListener('submit', ()=>
+
+})
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+console.log(form.email)
+//escucharr la modificacion del email
+
+form.addEventListener('submit', (e)=> {
+  e.preventDefault()
+});
+
+form.email.addEventListener('change', function(){
+    validEmail(this)
+
+});
+
+const validEmail = function(inputEmail) {
+  //regexp para validacion de mail
+  let emailRegexp = new RegExp(
+    '^[a-zA-Z0-9.-_]+[@]{1}[a-zA-Z0-9.-_]+[.]{1}[a-z]{2,10}$', 'g'
+
+  );
+
+    let testEmail = emailRegexp.test(inputEmail.value)
+    let small = inputEmail.nextElementSibling
+
+    if (testEmail){
+        small.innerHTML = "Adresse valide";
+    }else{
+      small.innerHTML = "adresse Non valide"
+    }
+
+}; 
+
+console.log(testEmail);*/
