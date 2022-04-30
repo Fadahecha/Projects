@@ -1,0 +1,34 @@
+form{
+    width: 50%;
+    margin: 0 auto;
+    padding:5% 5%;
+    background-color: cornflowerblue;
+}
+
+span{
+    visibility: hidden;
+}
+
+.error{
+    visibility: visible;
+    color: red;
+}
+
+#boton{
+
+    margin-top: 10%;
+}
+
+.identif{
+    font-size: 1.5rem;
+    margin-top: 5%;
+}
+
+#resultat{
+    font-size: 3rem;
+    
+}
+
+#permute{
+    font-size: 1.5rem;
+}
