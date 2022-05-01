@@ -12,88 +12,86 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <form action="get" data-target="resultat">
+          <form action="get" action="#" name="formReq">
             <fieldset>
               <legend>Requête</legend>
 
-              <span class="" id="sp1">Error</span>
 
               <div> 
+                <!--section radio-->
+                <label>But</label><br>
+                <input type="radio" class="form-check-input" name="but" id="but1" value="Vendre"/>Vendre                     
+                <input type="radio" class="form-check-input" name="but" id ="but2" value="Acheter"/>Acheter
+                <input type="radio" class="form-check-input" name="but" id ="but2" value="Jeter"/>Jeter
+                <input type="radio" class="form-check-input" name="but" id ="but2" value="Acheter"/>Acheter        
+                <!--/section radio-->
+              </div>
 
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>Action souhaitée</option>
-                    <option value="Faire">Faire</option>
-                    <option value="Acheter">Acheter</option>
-                    <option value="Construir">Construir</option>
-                  </select>
+              <hr>
 
-                <label for="motcle1" class=""></label>
-                <input
-                  type="text"
-                  id="motcle1"
-                  placeholder="mot clé "
-                  class="form-control"
-                  required
-                  pattern="[A-Za-z]+"
-                  name="motcle1"
-                />
-              </div>
-              <span class="" id="sp2">Error</span>
               <div>
-                <label for="motcle2"></label>
-                <input
-                  type="text"
-                  id="motcle2"
-                  placeholder="mot clé "
-                  class="form-control"
-                  required
-                  pattern="[A-Za-z]+"
-                  name="motcle2"
-                />
+                <!--section input text-->
+                <label>Môt Clé</label>                
+                <input id="motcle1" class="form-control" placeholder="Môt Clé" name="motcle1" type="text"/><br/>
               </div>
-              <span class="" id="sp3">Error</span>
+
+  
               <div>
-                <label for="motcle3"></label>
-                <input
-                  type="text"
-                  id="motcle3"
-                  placeholder="mot clé "
-                  class="form-control"
-                  required
-                  pattern="[A-Za-z]+"
-                  name="motcle3"
-                />
+                <label>Môt Clé</label>
+                <input id="motcle2" class="form-control" placeholder="Môt Clé" name="motcle2" type="text"/><br/>
               </div>
-                <br>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="" name="radio"> 
-                <label class="form-check-label" for="inlineCheckbox1">à</label>
+
+              <div>
+                <label>Môt Clé</label>
+                <input id="motcle3" class="form-control" placeholder="Môt Clé" name="motcle3" type="text"/><br/>
+                <!--/section input text-->
               </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="" name="radio"> 
-                <label class="form-check-label" for="inlineCheckbox2">aux</label>
+
+              <hr>
+              <div>
+               <!--select options-->
+              <label>Situation géographique</label>
+              <select id="select1" name="select1" class="form-select">
+                <option value=""></option>
+                <option value="Ville">Ville</option>
+                <option value="Pays" >Pays</option>
+                <option value="Continent" >Continent</option>
+                <option value="Planète">Planète</option>
+                <option value="Dimension">Dimension</option>
+              </select><br/>
+              <!--/select options-->
               </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="    "  name="radio">
-                <label class="form-check-label" for="inlineCheckbox3">des</label>
+              <hr>   
+              
+              <div>
+                <!--checkbox-->
+                <label>Additionnel</label><br>
+                <input name="Services" type="checkbox" class="form-check-input" id="chk1"/ >Services
+                <input name="Avis" type="checkbox" class="form-check-input"/ >Avis
+                <input name="Accompagnement" type="checkbox" class="form-check-input" id="chk3"/>Accompagnement
+                <input name="Apprentissage" type="checkbox"  class="form-check-input"/>Apprentissage
+                <!--/checkbox-->
               </div>
-              <br>
-              <label class="form-label" for="customRange1">Example range</label>
-              <div class="range">
-                <input type="range" class="form-range" id="customRange1" />
-              </div>
+              <hr>
+              <div>
+
+
+
                 
+              <input type="submit" value="Enoyer" class="btn btn-success form-control" /> 
+              <input type="reset" value="Reset" class="btn btn-danger form-control" />
+              </div>
+              
+              
             
-            <button type="submit"               
-                  class="form-control btn btn-danger"
-                  id="boton" type="submit">Envoyer</button>
+           
                 <div>
-                    <p class="identif">Résultat:<div id="resultat" class="text-danger"></div></p>
+                    <p class="identif">Résultat Requête:<div id="data" class="text-danger"></div></p>
                 </div>
                 <hr>
                 <p class="identif">
                   Combinaisons possibles:</p>
-              <p id="permute" class="text-success"></p>
+              <p id="permute" class="text-success"></p> 
               </div>             
             </fieldset>
           </form>
