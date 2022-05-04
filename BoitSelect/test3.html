@@ -1,0 +1,82 @@
+<style></style>
+
+<div class="mr-container">
+	<div class="image-parent">bike image<img src="" alt="">
+	</div>
+	
+  <div class="sale-info-parent">
+		<div class="info-title-parent">
+			<h1>MAYFAIR</h1>
+			<h3>Roulez en ville avec style</h3>
+		</div>
+		<div class="info-clicks-parent">
+			<form action="get">
+                <div><input type="checkbox" class="additem" onclick="updatePrice(this, 0)">Basic Item</div>
+                        <div><input type="checkbox" class="additem" onclick="updatePrice(this, 42)">Roue de 24 Pouces (+42$)</div>
+                        <div><input type="checkbox" class="additem" onclick="updatePrice(this, 35)">Selle de cuir (+35$)</div>
+                        <div><input type="checkbox" class="additem" onclick="updatePrice(this, 20)"> Poignees de cuir (+20$)</div>
+                <div><input type="checkbox" class="additem" id="nana" value="10"> Poignees de cuir (+20$)</div>
+			</form>
+		</div>
+		<div class="info-price-parent">
+			<div class="info-total">Total</div>
+			<div class="price" id="price">400</div>
+			<div class="dolar">$</div>
+		</div>
+	</div>
+
+    <div class="info-title-parent">
+        <h1>MAYFAIR</h1>
+        <h3>Roulez en ville avec style</h3>
+    </div>
+    <div class="info-clicks-parent">
+        <form action="get">
+            <div><input type="checkbox" class="additem" onclick="updatePrice(this, 0)">Basic Item</div>
+                    <div><input type="checkbox" class="additem" onclick="updatePrice(this, 42)">Roue de 24 Pouces (+42$)</div>
+                    <div><input type="checkbox" class="additem" onclick="updatePrice(this, 35)">Selle de cuir (+35$)</div>
+                    <div><input type="checkbox" class="additem" onclick="updatePrice(this, 20)"> Poignees de cuir (+20$)</div>
+            <div><input type="checkbox" class="additem" id="nana" value="10"> Poignees de cuir (+20$)</div>
+        </form>
+    </div>
+    <div class="info-price-parent">
+        <div class="info-total">Total</div>
+        <div class="price" id="price2">500</div>
+        <div class="dolar">$</div>
+    </div>
+</div>
+
+</div>
+
+<script>
+    let basePrice = 400;
+    let basePrice2 = 500;
+let currentPrice = basePrice;
+let currentPrice2 = basePrice2;
+
+
+function updatePrice(chk, value) {
+  if (chk.checked) {
+    currentPrice += value;
+  }
+  else {
+    currentPrice -= value;
+  }
+  document.querySelector("#price").textContent = currentPrice;
+}
+///////////////////////////////////////////////////////////////////////
+function updatePrice(chk, value) {
+  if (chk.checked) {
+    currentPrice2 += value;
+  }
+  else {
+    currentPrice2 -= value;
+  }
+  document.querySelector("#price2").textContent = currentPrice2;
+}
+
+
+</script>
+
+
+<!-- https://codepen.io/linabee123/pen/yLeLMLv -->
+<!-- https://codepen.io/blackellis/pen/QWjmEbz -->

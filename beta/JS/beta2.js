@@ -61,7 +61,8 @@ function actualiser() {
 
 function permute() {
     // Create an array with the values of all inputs
-    const ar = [document.getElementById("motcle1").value,
+    const ar = [
+      document.getElementById("motcle1").value,
       document.getElementById("motcle2").value,
       document.getElementById("motcle3").value,
       document.getElementById('select1').value];

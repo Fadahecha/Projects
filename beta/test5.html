@@ -2,7 +2,7 @@
 
 <html><head><title>Ejemplo aprenderaprogramar.com</title><meta charset="utf-8">
 
-<style type="text/css"> body {margin-left:30px; font-family: sans-serif;} h4 {margin:0;} div {float:left;}
+<!-- <style type="text/css"> body {margin-left:30px; font-family: sans-serif;} h4 {margin:0;} div {float:left;}
 
 .estiloForm, #encuadraImagen, #data {background-color: #f3f3f3; border: solid 2px black; margin-left:10px; width:300px; }
 
@@ -14,7 +14,7 @@
 
 br {clear: left;} input[type="submit"], input[type="reset"] {margin:25px 5px 10px 5px;}
 
-</style>
+</style> -->
 
 <script type="text/javascript">
 
@@ -99,22 +99,25 @@ requete.innerHTML='<h4> Datos introducidos: </h4><p>But: '+(radioButSelValue||' 
     <form name ="formularioContacto" method="get" action="#">
 
         <!--section radio-->
+        <div>
         <label>But</label>
         <input type="radio" name="but" id="but1" value="Vendre"/>Vendre                     
         <input type="radio" name="but" id ="but2" value="Acheter"/>Acheter
         <input type="radio" name="but" id ="but2" value="Jeter"/>Jeter
-        <input type="radio" name="but" id ="but2" value="Acheter"/>Acheter        
+        <input type="radio" name="but" id ="but2" value="Acheter"/>Acheter  
+        </div> 
         <!--/section radio-->
-
-
+        <br><hr>
         <!--section input text-->
+        <div>
         <label>Môt Clé</label><input id="motcle1" name="motcle1" type="text"/><br/>
         <label>Môt Clé</label><input id="motcle2" name="motcle2" type="text"/><br/>
         <label>Môt Clé</label><input id="motcle3" name="motcle3" type="text"/><br/>
+        </div>
         <!--/section input text-->
-
-
+        <br><hr>
         <!--select options-->
+        <div>
         <label>Situation géographique</label>
         <select id="select1" name="select1">
             <option value="">Choisissez</option>
@@ -124,18 +127,23 @@ requete.innerHTML='<h4> Datos introducidos: </h4><p>But: '+(radioButSelValue||' 
             <option value="Planète">Planète</option>
             <option value="Dimension">Dimension</option>
         </select><br/>
+        </div>
         <!--/select options-->
-
+        <br><hr>
         <!--checkbox-->
+        <div>
         <label>Additionnel</label>
         <input name="Services" type="checkbox" />Services
         <input name="Avis" type="checkbox" />Avis
         <input name="Accompagnement" type="checkbox" />Accompagnement
         <input name="Apprentissage" type="checkbox"  />Apprentissage
+        </div>
         <!--/checkbox-->
 
-
+        <br><hr>
         <input type="submit" value="Enviar"/> <input type="reset" value="Cancelar"/>
+
+    </form>
 
     </div>
 

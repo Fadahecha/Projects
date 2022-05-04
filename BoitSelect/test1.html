@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/test1.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  -->
+  <title>JS Bin</title>
+</head>
+<body>
+<div class="container">
+        <div class="container-fluid text-center">
+            <h2 style="font-size:70px; font-family:Lucida Console;">MENU</h2>
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <select class="form-select form-select-lg mb-3" id="category_select" onChange='handleChange()'>
+                        <option value="Food">Food</option>
+                        <option value="Drink">Drink</option>
+                    </select>
+                </div>
+                <br>
+                <div class="col-md-6">
+                    <select class="form-select form-select-lg mb-3" id="type_select"></select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <button type="submit" class="btn btn-secondary">Order</button>
+    <br>
+    <br>
+    <hr>
+    <hr>
+    <section class="pricing py-5">
+        <div class="container">
+          <div class="row">
+            <!-- Free Tier -->
+            <div class="col-lg-4">
+              <div class="card mb-5 mb-lg-0">
+                <div class="card-body">
+                  <h5 class="card-title text-muted text-uppercase text-center">Free</h5>
+                  <h6 class="card-price text-center">$0<span class="period">/month</span></h6>
+                  <hr>
+                  <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Single User</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>5GB Storage</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
+                    <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Unlimited
+                      Private Projects</li>
+                    <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Dedicated
+                      Phone Support</li>
+                    <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Free Subdomain
+                    </li>
+                    <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status
+                      Reports</li>
+                  </ul>
+                  <div class="d-grid">
+                    <a href="#" class="btn btn-primary text-uppercase">Button</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Plus Tier -->
+            <div class="col-lg-4">
+              <div class="card mb-5 mb-lg-0">
+                <div class="card-body">
+                  <h5 class="card-title text-muted text-uppercase text-center">Plus</h5>
+                  <h6 class="card-price text-center">$9<span class="period">/month</span></h6>
+                  <hr>
+                  <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>5 Users</strong></li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>50GB Storage</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Free Subdomain</li>
+                    <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status
+                      Reports</li>
+                  </ul>
+                  <div class="d-grid">
+                    <a href="#" class="btn btn-primary text-uppercase">Button</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Pro Tier -->
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-muted text-uppercase text-center">Pro</h5>
+                  <h6 class="card-price text-center" id="checked-sum"><span class="period">/month</span></h6>
+                  <hr>
+                  <form action="#" id="our-form">
+                  <ul class="fa-ul">
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="10" id="sel1">
+                        <label class="form-check-label" for="flexCheckDefault" onclick="UpdateCost()">
+                            Audit de positionnement et/ou  concurrentielle pour site déjà existant
+                        </label>
+                      </div>
+                    
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="10" id="sel2">
+                        <label class="form-check-label" for="flexCheckDefault" onclick="UpdateCost()">
+                          Default checkbox
+                        </label>
+                      </div>
+
+                    <li><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="10" id="sel3">
+                        <label class="form-check-label" for="flexCheckDefault" onclick="UpdateCost()">
+                            Default checkbox
+                        </label>
+                        </div></li>
+                       
+                    <li><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="10" id="sel4">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Default checkbox
+                        </label>
+                        </div></li>
+
+                    <li><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="10" id="sel5">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Default checkbox
+                        </label>
+                        </div></li>
+
+                    <li><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="10" id="sel6">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Default checkbox
+                        </label>
+                        </div></li>
+
+                    <li><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="10" id="sel7">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Default checkbox
+                        </label>
+                        </div></li>
+
+                    <li><div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="10" id="sel8">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Default checkbox
+                        </label>
+                        </div></li>
+                  </ul>
+                  
+                  </form>
+                  <div class="d-grid">
+                    <a href="#" class="btn btn-primary text-uppercase">Button</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr><hr>
+
+      
+        <input type="checkbox" id='game0' value="9.99"  onclick="UpdateCost()">Game 1 ( 9.99)<br>
+        <input type="checkbox" id='game1' value="19.99" onclick="UpdateCost()">Game 2 (19.99)<br>
+        <input type="checkbox" id='game2' value="27.50" onclick="UpdateCost()">Game 3 (27.50)<br>
+        <input type="checkbox" id='game3' value="45.65" onclick="UpdateCost()">Game 4 (45.65)<br>
+        <input type="checkbox" id='game4' value="87.20" onclick="UpdateCost()">Game 5 (87.20)<br>
+        <input type="checkbox" id='game5' value="22.20" onclick="UpdateCost()">Game 6 (22.20)<br>
+
+total cost<input type="text" id="totalcost" value="">
+<br>total Checked<input type="text" id="checkedcount" value="">
+<br>total boxes<input type="text" id="totalcount" value="">
+
+<script src="js/test1.js"></script>
+</body>
+</html>
+
+<!-- https://www.web-eau.net/blog/10-examples-pricing-table-bootstrap -->
+<!-- https://www.bootdey.com/snippets/view/Pricing-table- -->
+<!-- https://codepen.io/matheusfranco/pen/NWqzWbr?editors=1010 -->
+<!-- https://codepen.io/poto228/pen/jbyxNJ -->
+
+<!-- https://codepen.io/jorgemonte/pen/WOKQed -->
