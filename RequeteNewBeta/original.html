@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Requête</title>
+    <link rel="stylesheet" href="css/betatemplate.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="page-wrapper chiller-theme toggled">
+      <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
+        <i class="fas fa-bars"></i>
+      </a>
+
+      <form action="get" action="#" name="formReq">
+      <nav id="sidebar" class="sidebar-wrapper">
+        <div class="sidebar-content">
+          <div class="sidebar-brand">
+            <a href="#">Enrichisseur de requêtes</a>
+            <div id="close-sidebar">
+              <i class="fas fa-times"></i>
+            </div>
+          </div>
+          <div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/plnlogo.png" alt="" />
+          </div>
+          <!-- sidebar-search  -->
+          <div class="sidebar-menu">
+            <ul>
+              <li class="header-menu">
+                <span>Général</span>
+              </li>
+              <li class="sidebar-dropdown">
+                <a href="#">
+                  <i class="fa fa-bullseye"></i>
+                  <span>But</span>
+                  <span class="badge badge-pill badge-warning"></span>
+                </a>
+                <div class="sidebar-submenu">
+                  <!--Section But-->
+                  <div>
+                    <!--section radio-->
+                    <input
+                      type="radio"
+                      class="form-check-input"
+                      name="but"
+                      id="but1"
+                      value="Vendre"
+                    /> <span class="text-light">Vendre</span> 
+                    <input
+                      type="radio"
+                      class="form-check-input"
+                      name="but"
+                      id="but2"
+                      value="Acheter"
+                    /> <span class="text-light">Acheter</span> 
+                    <input
+                      type="radio"
+                      class="form-check-input"
+                      name="but"
+                      id="but2"
+                      value="Jeter"
+                    /> <span class="text-light">Jeter</span> 
+                    <input
+                      type="radio"
+                      class="form-check-input"
+                      name="but"
+                      id="but2"
+                      value="Acheter"
+                    /> <span class="text-light">Acheter</span> 
+                    <!--/section radio-->
+                  </div>
+                  <!--/Section But-->
+                </div>
+              </li>
+              <li class="sidebar-dropdown">
+                <a href="#">
+                    <i class="fa fa-key"></i>
+                  <span>Môts Clés</span>
+                  <span class="badge badge-pill badge-danger">3</span>
+                </a>
+                <div class="sidebar-submenu">
+                  <!--Section Môts Clés-->
+                  <div>
+                    <div>
+                      <!--section input text-->
+                      <input
+                        id="motcle1"
+                        class="form-control"
+                        placeholder="Môt Clé"
+                        name="motcle1"
+                        type="text"
+                        style="background-color: #525965;"
+                      /><br />
+                    </div>
+
+                    <div>
+                      <input
+                        id="motcle2"
+                        class="form-control"
+                        placeholder="Môt Clé"
+                        name="motcle2"
+                        type="text"
+                        style="background-color: #525965;"
+                      /><br />
+                    </div>
+
+                    <div>
+                      <input
+                        id="motcle3"
+                        class="form-control"
+                        placeholder="Môt Clé"
+                        name="motcle3"
+                        type="text"
+                        style="background-color: #525965;"
+                      /><br />
+                      <!--/section input text-->
+                    </div>
+                  </div>
+                  <!--Section Môts Clés-->
+                </div>
+              </li>
+              <li class="sidebar-dropdown">
+                <a href="#">
+                    <i class="fa fa-map-marker"></i>
+                  <span>Ubication</span>
+                </a>
+                <div class="sidebar-submenu">
+                  <div>
+                    <!--select options-->
+                    <select id="select1" name="select1" class="form-select text-light" style="background-color: #525965;">
+                      <option value=""></option>
+                      <option value="Ville">Ville</option>
+                      <option value="Pays">Pays</option>
+                      <option value="Continent">Continent</option>
+                      <option value="Planète">Planète</option>
+                      <option value="Dimension">Dimension</option></select
+                    ><br />
+                    <!--/select options-->
+                  </div>
+                </div>
+              </li>
+              <li class="sidebar-dropdown">
+                <a href="#">
+                    <i class="fa fa-plus" ></i>
+
+                  <span>Additionnel</span>
+                </a>
+                <div class="sidebar-submenu">
+                  <div>
+                    <!--checkbox-->
+                    <input name="Services" type="checkbox"
+                    class="form-check-input" id="chk1"/ > <span class="text-light">Services</span>  <input
+                    name="Avis" type="checkbox" class="form-check-input"/ > <span class="text-light">Avis</span> 
+                    <input
+                      name="Accompagnement"
+                      type="checkbox"
+                      class="form-check-input"
+                      id="chk3"
+                    /> <span class="text-light">Accompagnement</span> 
+                    <input
+                      name="Apprentissage"
+                      type="checkbox"
+                      class="form-check-input"
+                    /> <span class="text-light">Apprentissage</span> 
+                    <!--/checkbox-->
+                  </div>
+                </div>
+              </li>              
+              <li class="sidebar-dropdown">
+                <a href="#">
+                  <i class="fa fa-globe"></i>
+                  <span>Maps</span>
+                </a>
+                <div class="sidebar-submenu">
+                  <ul>
+                    <li>
+                      <a href="#">Google maps</a>
+                    </li>
+                    <li>
+                      <a href="#">Open street map</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="#">
+                  
+                  <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Enoyer" class="btn btn-success" /> || <input type="reset" value="Reset" class="btn btn-danger" /></span>
+                </a>
+              </li>
+              <li class="header-menu">
+                <span>Extra</span>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-book"></i>
+                  <span>Documentation</span>
+                  <span class="badge badge-pill badge-primary">Beta</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-calendar"></i>
+                  <span>Calendar</span>
+                </a>
+              </li>
+              
+
+            </ul>
+          </div>
+          <!-- sidebar-menu  -->
+        </div>
+        
+      </nav>
+  
+      </form>
+
+      <!-- sidebar-wrapper  -->
+      <main class="page-content">
+        <div class="container-fluid">
+          <h2>Résultat Requête:</h2>
+          <hr />
+          
+            
+            <div class="form-group col-md-12">
+              <div class="alert alert-success" role="alert">
+                <h4 class="alert-heading">Résultat !</h4>
+                <p id="data">
+                 
+                  
+                </p>
+            </div>
+          </div>
+
+
+         
+          <hr />
+          <div class="container-fluid">
+            <h2>Combinaisons possibles:</h2>
+            <hr />
+            
+              
+              <div class="form-group col-md-12">
+                <div class="alert alert-primary" role="alert">
+                  <h4 class="alert-heading">Resultat !</h4>
+                  <p id="permute">
+                   
+                    
+                  </p>
+                 
+              </div>
+            </div>
+          <hr />
+
+          <footer class="text-center">
+            <div class="mb-2">
+              <small>
+                © 2022 Fait avec
+                <i class="fa fa-heart" style="color: red"></i> by -
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.com-par-le-net.com/"
+                >
+                  <img src="media/plnlogo.png" alt="">
+                </a>
+              </small>
+            </div>
+            <div>
+              <p>21 rue Pierre Toufaire, 17300 Rochefort.</p>
+              <p>06.01.80.10.15</p>
+              <p>contact@com-par-le-net.com</p>
+            </div>
+          </footer>
+        </div>
+      </main>
+      <!-- page-content" -->
+    </div>
+    <!-- page-wrapper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/betatemplate.js"></script>
+    <script src="js/beta2.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
