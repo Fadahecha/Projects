@@ -1,7 +1,7 @@
 window.onload = function () {
 
     /* Variables globales (por estar declaradas sin var) */
-    requete = document.getElementById('data'); //Nodo donde vamos a mostrar los datos
+    resultat = document.getElementById('resultat'); //Nodo donde vamos a mostrar los datos
     radioBase = document.getElementsByName("base"); //Nodos radio buttons
     
     checkboxElements = new Array();
@@ -49,13 +49,16 @@ function actualiser() {
     // let elementSelect = document.getElementById('select1');
 
 
-    requete.innerHTML='<h4></h4><h3><p>'+document.getElementById('motcle').value+" "+(document.getElementById('motcle').value||'  ')+
-    " "+(document.getElementById('motcle').value||'  ')+/*" "+(elementSelect.options[elementSelect.selectedIndex].text||'  ')+*/
+    resultat.innerHTML='<h4></h4><h3><p>'+document.getElementById('motcle').value+" "+(document.getElementById('subase1').value||'  ')+
+    " "+(document.getElementById('subase2').value||'  ')+/*" "+(elementSelect.options[elementSelect.selectedIndex].text||'  ')+*/
     " "+(checkBoxSel||'  ')+'</p></h3>'
 
-
+   
 }
 
+
+
+////////////////////3 checkbox limit////////////////////////////
 
 $('.lim1').on('change', function(){
     var noChecked1 = 0;
