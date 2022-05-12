@@ -1,0 +1,83 @@
+:root {
+    --indigo: #6610f2;
+    --pink: #d63384;
+    --blue: #0d6efd;
+    --black: #000;
+  }
+  
+  .simple{
+    color: var(--pink);
+  }
+  
+  .optimise{
+    color: var(--indigo);
+  }
+  
+  .booste{
+    color: var(--blue)
+  }
+  
+  .black{
+    color: var(--black);
+  }
+  
+  /****************************************************************************/
+  section.prix {
+    background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+    }
+  
+  .fondo{
+    background: white;
+  }
+  
+    .prix .card {
+      border: white solid 0.5px;
+      border-radius: 1rem;
+      transition: all 0.2s;
+      box-shadow: 0 0.5rem 2rem  rgba(0, 0, 0, 0.1);
+    }
+    
+    .prix hr {
+      margin: 1.5rem 0;
+    }
+    
+    .prix .card-title {
+      margin: 0.5rem;
+      font-size: 0.9rem;
+      letter-spacing: .1rem;
+      font-weight: bold;
+    }
+    
+    .prix .card-price {
+      font-size: 2rem;
+      margin: 0 2rem;
+    }
+    
+  .small{
+    margin: 0 2rem
+  }	
+  
+    
+    .prix .text-muted {
+      opacity: 0.4;
+    }
+    
+       .prix .card:hover {
+        margin-top: -.25rem;
+        margin-bottom: .25rem;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+      }
+  
+    
+    /* Hover Effects on Card */
+    
+    @media (min-width: 992px) {
+      .prix .card:hover {
+        margin-top: -.25rem;
+        margin-bottom: .25rem;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+      }
+    
+  
+    }
