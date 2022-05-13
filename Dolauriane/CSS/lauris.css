@@ -1,0 +1,3511 @@
+	.mediaViewInfo {
+		--web-view-name: Web 1920 – 1;
+		--web-view-id: Web_1920__1;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Web_1920__1;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Web_1920__1 {
+		position: absolute;
+		width: 1920px;
+		height: 3199px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Web 1920 – 1;
+		--web-view-id: Web_1920__1;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	#Rectangle_1 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,0.169);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_1 {
+		position: absolute;
+		overflow: visible;
+		width: 1384px;
+		height: 2859px;
+		left: 268px;
+		top: 260px;
+	}
+	#Rectangle_2 {
+		fill: rgba(242,242,242,1);
+	}
+	.Rectangle_2 {
+		position: absolute;
+		overflow: visible;
+		width: 1384px;
+		height: 108px;
+		left: 268px;
+		top: 392px;
+	}
+	#Stratgie {
+		left: 325px;
+		top: 298px;
+		position: absolute;
+		overflow: visible;
+		width: 196px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 45px;
+		color: rgba(16,16,16,1);
+	}
+	#Accompagnement {
+		left: 325px;
+		top: 435px;
+		position: absolute;
+		overflow: visible;
+		width: 206px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(16,16,16,1);
+	}
+	#Rectangle_3 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_3 {
+		position: absolute;
+		overflow: visible;
+		width: 1384px;
+		height: 108px;
+		left: 268px;
+		top: 500px;
+	}
+	#Rectangle_4 {
+		fill: rgba(242,242,242,1);
+	}
+	.Rectangle_4 {
+		position: absolute;
+		overflow: visible;
+		width: 1384px;
+		height: 108px;
+		left: 268px;
+		top: 608px;
+	}
+	#Rectangle_5 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_5 {
+		position: absolute;
+		overflow: visible;
+		width: 1384px;
+		height: 108px;
+		left: 268px;
+		top: 716px;
+	}
+	#Site_internet {
+		left: 325px;
+		top: 844px;
+		position: absolute;
+		overflow: visible;
+		width: 263px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 45px;
+		color: rgba(16,16,16,1);
+	}
+	#Rectangle_9 {
+		fill: rgba(242,242,242,1);
+	}
+	.Rectangle_9 {
+		position: absolute;
+		overflow: visible;
+		width: 1384px;
+		height: 108px;
+		left: 268px;
+		top: 934px;
+	}
+	#Rectangle_10 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_10 {
+		position: absolute;
+		overflow: visible;
+		width: 1384px;
+		height: 108px;
+		left: 268px;
+		top: 1042px;
+	}
+	#Rectangle_11 {
+		fill: rgba(242,242,242,1);
+	}
+	.Rectangle_11 {
+		position: absolute;
+		overflow: visible;
+		width: 1384px;
+		height: 108px;
+		left: 268px;
+		top: 1150px;
+	}
+	#Rectangle_12 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_12 {
+		position: absolute;
+		overflow: visible;
+		width: 1384px;
+		height: 108px;
+		left: 268px;
+		top: 1258px;
+	}
+	#Rectangle_13 {
+		fill: rgba(242,242,242,1);
+	}
+	.Rectangle_13 {
+		position: absolute;
+		overflow: visible;
+		width: 1384px;
+		height: 108px;
+		left: 268px;
+		top: 1366px;
+	}
+	#Audits {
+		left: 325px;
+		top: 540px;
+		position: absolute;
+		overflow: visible;
+		width: 72px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(16,16,16,1);
+	}
+	#Stratgie_rfrencement {
+		left: 325px;
+		top: 756px;
+		position: absolute;
+		overflow: visible;
+		width: 270px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(16,16,16,1);
+	}
+	#n___univers_smantique {
+		left: 673px;
+		top: 741px;
+		position: absolute;
+		overflow: visible;
+		width: 233px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(16,16,16,1);
+	}
+	#n___univers_smantique_x {
+		left: 982px;
+		top: 741px;
+		position: absolute;
+		overflow: visible;
+		width: 233px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(16,16,16,1);
+	}
+	#n___univers_smantique_y {
+		left: 1291px;
+		top: 741px;
+		position: absolute;
+		overflow: visible;
+		width: 233px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(16,16,16,1);
+	}
+	#Rseaux_sociaux_option {
+		left: 332px;
+		top: 1964px;
+		position: absolute;
+		overflow: visible;
+		width: 540px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 45px;
+		color: rgba(16,16,16,1);
+	}
+	#Rectangle_17 {
+		fill: rgba(242,242,242,1);
+	}
+	.Rectangle_17 {
+		position: absolute;
+		overflow: visible;
+		width: 1384px;
+		height: 108px;
+		left: 268px;
+		top: 2054px;
+	}
+	#Rectangle_18 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_18 {
+		position: absolute;
+		overflow: visible;
+		width: 1384px;
+		height: 108px;
+		left: 268px;
+		top: 2162px;
+	}
+	#Rectangle_19 {
+		fill: rgba(242,242,242,1);
+	}
+	.Rectangle_19 {
+		position: absolute;
+		overflow: visible;
+		width: 1384px;
+		height: 108px;
+		left: 268px;
+		top: 2270px;
+	}
+	#Rectangle_20 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_20 {
+		position: absolute;
+		overflow: visible;
+		width: 1384px;
+		height: 108px;
+		left: 268px;
+		top: 2378px;
+	}
+	#Rectangle_21 {
+		fill: rgba(242,242,242,1);
+	}
+	.Rectangle_21 {
+		position: absolute;
+		overflow: visible;
+		width: 1384px;
+		height: 108px;
+		left: 268px;
+		top: 2486px;
+	}
+	#Accompagnement_ {
+		left: 332px;
+		top: 2630px;
+		position: absolute;
+		overflow: visible;
+		width: 394px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 45px;
+		color: rgba(16,16,16,1);
+	}
+	#Rectangle_27 {
+		fill: rgba(242,242,242,1);
+	}
+	.Rectangle_27 {
+		position: absolute;
+		overflow: visible;
+		width: 1384px;
+		height: 108px;
+		left: 268px;
+		top: 2720px;
+	}
+	#Rectangle_28 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_28 {
+		position: absolute;
+		overflow: visible;
+		width: 1384px;
+		height: 108px;
+		left: 268px;
+		top: 2828px;
+	}
+	#Rectangle_29 {
+		fill: rgba(242,242,242,1);
+	}
+	.Rectangle_29 {
+		position: absolute;
+		overflow: visible;
+		width: 1384px;
+		height: 108px;
+		left: 268px;
+		top: 2936px;
+	}
+	#Application_ddie {
+		left: 332px;
+		top: 2760px;
+		position: absolute;
+		overflow: visible;
+		width: 209px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(16,16,16,1);
+	}
+	#Accompagnement_ba {
+		position: absolute;
+		width: 661px;
+		height: 43px;
+		left: 768px;
+		top: 428px;
+		overflow: visible;
+	}
+	#Groupe_5 {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1 {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1 {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1 {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1 {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2 {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2 {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_6 {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 309px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_bg {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_bg {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_bh {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_bh {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_bi {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_bi {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_7 {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 618px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_bk {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_bk {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_bl {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_bl {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_bm {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_bm {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Application_ddie_bn {
+		position: absolute;
+		width: 661px;
+		height: 43px;
+		left: 768px;
+		top: 2753px;
+		overflow: visible;
+	}
+	#Groupe_8 {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_bp {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_bp {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_bq {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_bq {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_br {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_br {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_9 {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 309px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_bt {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_bt {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_bu {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_bu {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_bv {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_bv {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_10 {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 618px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_bx {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_bx {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_by {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_by {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_bz {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_bz {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#STRATGIE {
+		position: absolute;
+		width: 666px;
+		height: 50px;
+		left: 767px;
+		top: 300px;
+		overflow: visible;
+	}
+	#Groupe_2 {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_b {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_b {
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_b {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_b {
+		overflow: visible;
+		position: absolute;
+		width: 15.08px;
+		height: 15.609px;
+		left: 12.662px;
+		top: 27.132px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_b {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_b {
+		overflow: visible;
+		position: absolute;
+		width: 16.647px;
+		height: 28.051px;
+		left: 23.903px;
+		top: 14.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_11 {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 306px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_ca {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_ca {
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_ca {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_ca {
+		overflow: visible;
+		position: absolute;
+		width: 15.08px;
+		height: 15.609px;
+		left: 12.662px;
+		top: 27.132px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_ca {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_ca {
+		overflow: visible;
+		position: absolute;
+		width: 16.647px;
+		height: 28.051px;
+		left: 23.903px;
+		top: 14.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_12 {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 616px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_cb {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_cb {
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_cb {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_cb {
+		overflow: visible;
+		position: absolute;
+		width: 15.08px;
+		height: 15.609px;
+		left: 12.662px;
+		top: 27.132px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_cc {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_cc {
+		overflow: visible;
+		position: absolute;
+		width: 16.647px;
+		height: 28.051px;
+		left: 23.903px;
+		top: 14.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Facebook {
+		left: 332px;
+		top: 2094px;
+		position: absolute;
+		overflow: visible;
+		width: 112px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(16,16,16,1);
+	}
+	#Linkedin {
+		left: 332px;
+		top: 2202px;
+		position: absolute;
+		overflow: visible;
+		width: 95px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(16,16,16,1);
+	}
+	#Google_MyBusiness {
+		left: 332px;
+		top: 2312px;
+		position: absolute;
+		overflow: visible;
+		width: 225px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(16,16,16,1);
+	}
+	#Instagram {
+		left: 332px;
+		top: 2421px;
+		position: absolute;
+		overflow: visible;
+		width: 113px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(16,16,16,1);
+	}
+	#Youtube {
+		left: 332px;
+		top: 2526px;
+		position: absolute;
+		overflow: visible;
+		width: 93px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(16,16,16,1);
+	}
+	#FB_-_dselectionn {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(42,167,56,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.FB_-_dselectionn {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 770px;
+		top: 2087px;
+	}
+	#FB_-_dselectionn_cj {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(42,167,56,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.FB_-_dselectionn_cj {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 1076px;
+		top: 2087px;
+	}
+	#FB_-_dselectionn_ck {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(42,167,56,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.FB_-_dselectionn_ck {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 1381px;
+		top: 2087px;
+	}
+	#FB_-_dselectionn_cl {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(42,167,56,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.FB_-_dselectionn_cl {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 770px;
+		top: 2195px;
+	}
+	#FB_-_dselectionn_cm {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(42,167,56,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.FB_-_dselectionn_cm {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 1076px;
+		top: 2195px;
+	}
+	#FB_-_dselectionn_cn {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(42,167,56,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.FB_-_dselectionn_cn {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 1381px;
+		top: 2195px;
+	}
+	#FB_-_dselectionn_co {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(42,167,56,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.FB_-_dselectionn_co {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 770px;
+		top: 2305px;
+	}
+	#FB_-_dselectionn_cp {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(42,167,56,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.FB_-_dselectionn_cp {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 1076px;
+		top: 2305px;
+	}
+	#FB_-_dselectionn_cq {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(42,167,56,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.FB_-_dselectionn_cq {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 1381px;
+		top: 2305px;
+	}
+	#FB_-_dselectionn_cr {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(42,167,56,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.FB_-_dselectionn_cr {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 770px;
+		top: 2411px;
+	}
+	#FB_-_dselectionn_cs {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(42,167,56,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.FB_-_dselectionn_cs {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 1076px;
+		top: 2411px;
+	}
+	#FB_-_dselectionn_ct {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(42,167,56,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.FB_-_dselectionn_ct {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 1381px;
+		top: 2411px;
+	}
+	#FB_-_dselectionn_cu {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(42,167,56,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.FB_-_dselectionn_cu {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 770px;
+		top: 2519px;
+	}
+	#FB_-_dselectionn_cv {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(42,167,56,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.FB_-_dselectionn_cv {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 1076px;
+		top: 2519px;
+	}
+	#FB_-_dselectionn_cw {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(42,167,56,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.FB_-_dselectionn_cw {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 1381px;
+		top: 2519px;
+	}
+	#Visioconfrence {
+		left: 332px;
+		top: 2868px;
+		position: absolute;
+		overflow: visible;
+		width: 178px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(16,16,16,1);
+	}
+	#n_0_min__mois {
+		left: 1025px;
+		top: 2868px;
+		position: absolute;
+		overflow: visible;
+		width: 161px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(16,16,16,1);
+	}
+	#n_0_min__mois_cz {
+		left: 716px;
+		top: 2868px;
+		position: absolute;
+		overflow: visible;
+		width: 161px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(16,16,16,1);
+	}
+	#n_0_min__mois_c {
+		left: 1334px;
+		top: 2868px;
+		position: absolute;
+		overflow: visible;
+		width: 161px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(16,16,16,1);
+	}
+	#Site_internet_professionnel {
+		left: 325px;
+		top: 974px;
+		position: absolute;
+		overflow: visible;
+		width: 292px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(16,16,16,1);
+	}
+	#Optimisation_technique {
+		left: 325px;
+		top: 1082px;
+		position: absolute;
+		overflow: visible;
+		width: 260px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(16,16,16,1);
+	}
+	#Optimisation_smantique {
+		left: 325px;
+		top: 1190px;
+		position: absolute;
+		overflow: visible;
+		width: 280px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(16,16,16,1);
+	}
+	#Optimisation_maillage_interne {
+		left: 325px;
+		top: 1298px;
+		position: absolute;
+		overflow: visible;
+		width: 326px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(16,16,16,1);
+	}
+	#Intgration_des_contenus {
+		left: 325px;
+		top: 1406px;
+		position: absolute;
+		overflow: visible;
+		width: 278px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(16,16,16,1);
+	}
+	#Audits_c {
+		position: absolute;
+		width: 661px;
+		height: 43px;
+		left: 768px;
+		top: 533px;
+		overflow: visible;
+	}
+	#Groupe_13 {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_c {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_c {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_c {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_c {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_da {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_da {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_14 {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 309px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_dc {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_dc {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_dd {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_dd {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_de {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_de {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_15 {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 618px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_dg {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_dg {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_dh {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_dh {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_di {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_di {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Site_internet_professionnel_dj {
+		position: absolute;
+		width: 661px;
+		height: 43px;
+		left: 768px;
+		top: 967px;
+		overflow: visible;
+	}
+	#Groupe_16 {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_dl {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_dl {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_dm {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_dm {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_dn {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_dn {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_17 {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 309px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_dp {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_dp {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_dq {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_dq {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_dr {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_dr {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_18 {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 618px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_dt {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_dt {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_du {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_du {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_dv {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_dv {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Optimisation_technique_dw {
+		position: absolute;
+		width: 661px;
+		height: 43px;
+		left: 768px;
+		top: 1075px;
+		overflow: visible;
+	}
+	#Groupe_19 {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_dy {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_dy {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_dz {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_dz {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_d {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_d {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_20 {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 309px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_d {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_d {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_d {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_d {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_ea {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_ea {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_21 {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 618px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_ea {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_ea {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_ea {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_ea {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_eb {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_eb {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Optimisation_smantique_d {
+		position: absolute;
+		width: 661px;
+		height: 43px;
+		left: 768px;
+		top: 1183px;
+		overflow: visible;
+	}
+	#Groupe_19_ea {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_eb {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_eb {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_ec {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_ec {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_ed {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_ed {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_20_ee {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 309px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_ef {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_ef {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_eg {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_eg {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_eh {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_eh {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_21_ei {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 618px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_ej {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_ej {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_ek {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_ek {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_el {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_el {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Optimisation_maillage_interne_em {
+		position: absolute;
+		width: 661px;
+		height: 43px;
+		left: 768px;
+		top: 1291px;
+		overflow: visible;
+	}
+	#Groupe_19_en {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_eo {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_eo {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_ep {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_ep {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_eq {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_eq {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_20_er {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 309px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_es {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_es {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_et {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_et {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_eu {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_eu {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_21_ev {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 618px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_ew {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_ew {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_ex {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_ex {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_ey {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_ey {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Optimisation_des_contenus {
+		position: absolute;
+		width: 661px;
+		height: 43px;
+		left: 768px;
+		top: 1399px;
+		overflow: visible;
+	}
+	#Groupe_19_e {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_e {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_e {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_e {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_e {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_e {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_e {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_20_e {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 309px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_fa {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_fa {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_fa {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_fa {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_fa {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_fa {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_21_e {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 618px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_fb {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_fb {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_fb {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_fb {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_fb {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_fb {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Campagne {
+		left: 332px;
+		top: 1512px;
+		position: absolute;
+		overflow: visible;
+		width: 234px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 45px;
+		color: rgba(16,16,16,1);
+	}
+	#Rectangle_22 {
+		fill: rgba(242,242,242,1);
+	}
+	.Rectangle_22 {
+		position: absolute;
+		overflow: visible;
+		width: 1384px;
+		height: 108px;
+		left: 268px;
+		top: 1602px;
+	}
+	#Rectangle_23 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_23 {
+		position: absolute;
+		overflow: visible;
+		width: 1384px;
+		height: 108px;
+		left: 268px;
+		top: 1710px;
+	}
+	#Rectangle_24 {
+		fill: rgba(242,242,242,1);
+	}
+	.Rectangle_24 {
+		position: absolute;
+		overflow: visible;
+		width: 1384px;
+		height: 108px;
+		left: 268px;
+		top: 1818px;
+	}
+	#Optimisation_Netlinking {
+		left: 332px;
+		top: 1641px;
+		position: absolute;
+		overflow: visible;
+		width: 261px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(16,16,16,1);
+	}
+	#Publicit_Facebook {
+		left: 332px;
+		top: 1750px;
+		position: absolute;
+		overflow: visible;
+		width: 215px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(16,16,16,1);
+	}
+	#Publicit_Google_Adwords {
+		left: 332px;
+		top: 1858px;
+		position: absolute;
+		overflow: visible;
+		width: 292px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(16,16,16,1);
+	}
+	#Groupe_22 {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 1386px;
+		top: 1634px;
+		overflow: visible;
+	}
+	#Ellipse_1_fk {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_fk {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_fl {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_fl {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_fm {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_fm {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_23 {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 1386px;
+		top: 1743px;
+		overflow: visible;
+	}
+	#Ellipse_1_fo {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_fo {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_fp {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_fp {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_fq {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_fq {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_24 {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 1386px;
+		top: 1851px;
+		overflow: visible;
+	}
+	#Ellipse_1_fs {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_fs {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_ft {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_ft {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_fu {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_fu {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Chef_de_projet_ddi {
+		left: 332px;
+		top: 2976px;
+		position: absolute;
+		overflow: visible;
+		width: 229px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(16,16,16,1);
+	}
+	#Chef_de_projet_ddi_fw {
+		position: absolute;
+		width: 352px;
+		height: 43px;
+		left: 1077px;
+		top: 2969px;
+		overflow: visible;
+	}
+	#Groupe_9_fx {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_fy {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_fy {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_fz {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_fz {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_f {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_f {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_10_f {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 309px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_f {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_f {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_f {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_f {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_ga {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_ga {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Nos_abonnements_mensuels {
+		left: 622px;
+		top: 28px;
+		position: absolute;
+		overflow: visible;
+		width: 678px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 50px;
+		color: rgba(16,16,16,1);
+	}
+	#Reporting {
+		left: 325px;
+		top: 648px;
+		position: absolute;
+		overflow: visible;
+		width: 111px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(16,16,16,1);
+	}
+	#Audits_f {
+		position: absolute;
+		width: 661px;
+		height: 43px;
+		left: 768px;
+		top: 641px;
+		overflow: visible;
+	}
+	#Groupe_13_f {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_ga {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_ga {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_ga {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_ga {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_gb {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_gb {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_14_gc {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 309px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_gd {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_gd {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_ge {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_ge {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_gf {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_gf {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_15_gg {
+		position: absolute;
+		width: 43px;
+		height: 43px;
+		left: 618px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_gh {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_gh {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_gi {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_gi {
+		overflow: visible;
+		position: absolute;
+		width: 13.243px;
+		height: 13.243px;
+		left: 10.5px;
+		top: 22.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_gj {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_gj {
+		overflow: visible;
+		position: absolute;
+		width: 16.093px;
+		height: 25.093px;
+		left: 19.5px;
+		top: 10.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Header {
+		position: absolute;
+		width: 1384px;
+		height: 130px;
+		left: 268px;
+		top: 130px;
+		overflow: visible;
+	}
+	#Rectangle_16 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(164,68,199,0.133);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_16 {
+		position: absolute;
+		overflow: visible;
+		width: 1384px;
+		height: 130px;
+		left: 0px;
+		top: 0px;
+	}
+	#Dolauriane {
+		left: 57px;
+		top: 38px;
+		position: absolute;
+		overflow: visible;
+		width: 233px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 45px;
+		color: rgba(127,51,203,1);
+	}
+	#Optimis {
+		left: 769px;
+		top: 38px;
+		position: absolute;
+		overflow: visible;
+		width: 129px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(16,16,16,1);
+	}
+	#Boost {
+		left: 1091px;
+		top: 38px;
+		position: absolute;
+		overflow: visible;
+		width: 103px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(16,16,16,1);
+	}
+	#Simple {
+		left: 477px;
+		top: 38px;
+		position: absolute;
+		overflow: visible;
+		width: 99px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(16,16,16,1);
+	}
+	#n_94__TTC {
+		left: 476px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 101px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(16,16,16,1);
+	}
+	#n_98__TTC {
+		left: 783px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 101px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(16,16,16,1);
+	}
+	#n_96__TTC {
+		left: 1090px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 101px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(16,16,16,1);
+	}
+	#SITE_WEB {
+		position: absolute;
+		width: 666px;
+		height: 50px;
+		left: 767px;
+		top: 846px;
+		overflow: visible;
+	}
+	#Groupe_2_gu {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_gv {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_gv {
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_gw {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_gw {
+		overflow: visible;
+		position: absolute;
+		width: 15.08px;
+		height: 15.609px;
+		left: 12.662px;
+		top: 27.132px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_gx {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_gx {
+		overflow: visible;
+		position: absolute;
+		width: 16.647px;
+		height: 28.051px;
+		left: 23.903px;
+		top: 14.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_11_gy {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 306px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_gz {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_gz {
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_g {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_g {
+		overflow: visible;
+		position: absolute;
+		width: 15.08px;
+		height: 15.609px;
+		left: 12.662px;
+		top: 27.132px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_g {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_g {
+		overflow: visible;
+		position: absolute;
+		width: 16.647px;
+		height: 28.051px;
+		left: 23.903px;
+		top: 14.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_12_g {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 616px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_g {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_g {
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_ha {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_ha {
+		overflow: visible;
+		position: absolute;
+		width: 15.08px;
+		height: 15.609px;
+		left: 12.662px;
+		top: 27.132px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_ha {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_ha {
+		overflow: visible;
+		position: absolute;
+		width: 16.647px;
+		height: 28.051px;
+		left: 23.903px;
+		top: 14.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#CAMPAGNE {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 1383px;
+		top: 1514px;
+		overflow: visible;
+	}
+	#Groupe_12_ha {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_ha {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_ha {
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_hb {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_hb {
+		overflow: visible;
+		position: absolute;
+		width: 15.08px;
+		height: 15.609px;
+		left: 12.662px;
+		top: 27.132px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_hb {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_hb {
+		overflow: visible;
+		position: absolute;
+		width: 16.647px;
+		height: 28.051px;
+		left: 23.903px;
+		top: 14.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ACCOMPAGNEMENT {
+		position: absolute;
+		width: 666px;
+		height: 50px;
+		left: 767px;
+		top: 2632px;
+		overflow: visible;
+	}
+	#Groupe_2_hc {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_hd {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_hd {
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_he {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_he {
+		overflow: visible;
+		position: absolute;
+		width: 15.08px;
+		height: 15.609px;
+		left: 12.662px;
+		top: 27.132px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_hf {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_hf {
+		overflow: visible;
+		position: absolute;
+		width: 16.647px;
+		height: 28.051px;
+		left: 23.903px;
+		top: 14.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_11_hg {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 306px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_hh {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_hh {
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_hi {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_hi {
+		overflow: visible;
+		position: absolute;
+		width: 15.08px;
+		height: 15.609px;
+		left: 12.662px;
+		top: 27.132px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_hj {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_hj {
+		overflow: visible;
+		position: absolute;
+		width: 16.647px;
+		height: 28.051px;
+		left: 23.903px;
+		top: 14.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Groupe_12_hk {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 616px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_1_hl {
+		fill: rgba(114,217,68,1);
+	}
+	.Ellipse_1_hl {
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ligne_1_hm {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_1_hm {
+		overflow: visible;
+		position: absolute;
+		width: 15.08px;
+		height: 15.609px;
+		left: 12.662px;
+		top: 27.132px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ligne_2_hn {
+		fill: transparent;
+		stroke: rgba(255,255,255,1);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ligne_2_hn {
+		overflow: visible;
+		position: absolute;
+		width: 16.647px;
+		height: 28.051px;
+		left: 23.903px;
+		top: 14.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}

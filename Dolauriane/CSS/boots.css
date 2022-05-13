@@ -1,0 +1,17 @@
+    .dolauriane {	
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 2rem;
+		color: rgba(127,51,203,1);
+	}
+
+    .table-fixed{
+		position: sticky;
+		top: 0px;
+		background: white;
+	}
+   
+    #Ellipse_1_gh {
+		fill: rgba(114,217,68,1);
+	}
