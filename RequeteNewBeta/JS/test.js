@@ -1,7 +1,7 @@
 window.onload = function () {
 
     /* Variables globales (por estar declaradas sin var) */
-    resultat = document.getElementById('resultat'); //Nodo donde vamos a mostrar los datos
+    requete = document.getElementById('data'); //Nodo donde vamos a mostrar los datos
     radioBase = document.getElementsByName("base"); //Nodos radio buttons
     
     checkboxElements = new Array();
@@ -48,16 +48,10 @@ function actualiser() {
 
     // let elementSelect = document.getElementById('select1');
 
-
-<<<<<<< HEAD
-    requete.innerHTML='<h4></h4><h3><p>'+document.getElementById('motcle').value+" "+(document.getElementById('subase1').value||'  ')+
-=======
-    resultat.innerHTML='<h4></h4><h3><p>'+document.getElementById('motcle').value+" "+(document.getElementById('subase1').value||'  ')+
->>>>>>> 8ad6470786e6386f4859e1e04e4dba773edaf3a6
-    " "+(document.getElementById('subase2').value||'  ')+/*" "+(elementSelect.options[elementSelect.selectedIndex].text||'  ')+*/
+     requete.innerHTML='<h4></h4><h3><p>'+document.getElementById('motcle').value+" "+(document.getElementById('subase1').value||'  ')+
+    " "+(document.getElementById('subase2').value||'  ')+
     " "+(checkBoxSel||'  ')+'</p></h3>'
-
-   
+  
 }
 
 
