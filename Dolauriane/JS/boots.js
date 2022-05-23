@@ -91,7 +91,3 @@ $allCheckboxes3.change(function() {
   
 });
 
-
-$(document).ready(function() {
-  $('#tabla1').stacktable();
-  });
