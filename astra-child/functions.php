@@ -16,13 +16,17 @@
 //         array($parenthandle),
 //         $theme->get('Version') // this only works if you have Version in the style header
 //     );
-// }
+
+
+//}
 
 function add_theme_scripts()
 {
     wp_enqueue_style('fabien', get_stylesheet_uri());
 
     //CSS
+    wp_enqueue_style('font-awesome', get_stylesheet_directory_uri() . '/css/font-awesome.min.css', array(), '1.2', 'all');
+    wp_enqueue_style('landing', get_stylesheet_directory_uri() . '/css/landing.css', array(), '1.2', 'all');
     wp_enqueue_style('fafa', get_stylesheet_directory_uri() . '/css/fafa.css', array(), '1.2', 'all');
     wp_enqueue_style('bootstrap', get_stylesheet_directory_uri() . '/css/bootstrap.min.css', array(), '1.2', 'all');
 
